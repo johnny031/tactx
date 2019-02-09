@@ -1,4 +1,8 @@
-baseurl: /
-url: http://johnny031.github.io
-baseurl: /about/
-url: https://johnny031.github.io
+permalink: pretty
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

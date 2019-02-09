@@ -1,5 +1,7 @@
 permalink: pretty
 
+baseurl: /
+url: http://johnny031.github.io
 
 defaults:
   - scope:

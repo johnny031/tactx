@@ -1,11 +1,3 @@
 baseurl: /
 url: http://johnny031.github.io
 
-baseurl: /about
-url: http://johnny031.github.io
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"

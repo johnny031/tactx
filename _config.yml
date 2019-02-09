@@ -1,2 +1,27 @@
-sass:
-    style: compressed
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+  journal:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: "/journal/*"
+    values:
+      layout: "red_block"
+  - scope:
+      path: ""
+      type: "journal"
+    values:
+      layout: "journal"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

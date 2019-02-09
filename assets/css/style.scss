@@ -169,7 +169,7 @@ a.effect-shine:hover {
 }
 
 #products{
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('/assets/img/machine_black.png');
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/machine_black.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
@@ -315,7 +315,7 @@ footer {
 
 #about{
   height: 91vh;
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('/assets/img/city2.png');
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/city2.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 320px;

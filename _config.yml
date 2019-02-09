@@ -1,4 +1,2 @@
-baseurl: /
-url: http://johnny031.github.io
-baseurl: /about
-url: http://johnny031.github.io
+sass:
+    style: compressed

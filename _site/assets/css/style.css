@@ -10,7 +10,7 @@
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     font-size: 21px;
     font-weight: 500;
-    color: #525252; }
+    color: #353535; }
   .navbar a:hover {
     color: #0033ce; }
 
@@ -104,6 +104,15 @@
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     padding: 25px; }
 
+@media only screen and (max-width: 576px) {
+  #services {
+    padding: 60px 20px; }
+    #services .col-lg-3 {
+      padding-bottom: 50px; }
+    #services h2 {
+      font-size: 35px; }
+    #services h4 {
+      font-size: 22px; } }
 .general-heading_line {
   background-color: #1e94f4;
   height: 4px;
@@ -131,81 +140,78 @@ a.effect-shine:hover {
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     padding: 20px;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em; }
-
-.btn {
-  font-family: Lato, Roboto, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: 3px;
-  display: inline-block;
-  vertical-align: middle;
-  background-color: #1e94f4;
-  padding: 18px;
-  margin: 20px 0px;
-  text-decoration: none; }
-
-.myButt {
-  outline: none;
-  border: none;
-  padding: 20px;
-  display: block;
-  margin: 50px auto;
-  cursor: pointer;
-  font-size: 20px;
-  background-color: transparent;
-  position: relative;
-  border: 2px solid #fff;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease; }
-
-.one {
-  border-color: #fff;
-  overflow: hidden;
-  color: #fff;
-  font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-  text-shadow: black 0.1em 0.1em 0.2em; }
-  .one .insider {
-    background-color: #fff;
-    width: 100%;
-    height: 20px;
-    position: absolute;
-    left: -135px;
-    transform: rotateZ(45deg);
-    -webkit-transform: rotateZ(45deg);
-    -moz-transform: rotateZ(45deg);
-    -o-transform: rotateZ(45deg);
-    -ms-transform: rotateZ(45deg); }
-  .one:hover {
-    background-color: #1e94f4;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    word-break: keep-all; }
+  #products .myButt {
+    outline: none;
+    border: none;
+    padding: 20px;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    border: 2px solid #fff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease; }
+  #products .one {
+    font-size: 22px;
     border-color: #fff;
-    color: #fff; }
-    .one:hover .insider {
-      transition: all 0.3s ease;
-      -webkit-transition: all 0.3s ease;
-      -moz-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      left: 135px; }
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+    #products .one .insider {
+      background-color: #fff;
+      width: 100%;
+      height: 20px;
+      position: absolute;
+      left: -135px;
+      transform: rotateZ(45deg);
+      -webkit-transform: rotateZ(45deg);
+      -moz-transform: rotateZ(45deg);
+      -o-transform: rotateZ(45deg);
+      -ms-transform: rotateZ(45deg); }
+    #products .one:hover {
+      background-color: #1e94f4;
+      border-color: #fff;
+      color: #fff; }
+      #products .one:hover .insider {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        left: 135px; }
 
+@media only screen and (max-width: 576px) {
+  #products {
+    padding: 70px 0; }
+    #products h2 {
+      font-size: 35px; }
+    #products .one {
+      font-size: 20px; } }
 footer {
   background-color: #f2f2f2;
   font-size: 14px; }
   footer h3 {
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     font-size: 16px;
-    color: #3e3f3f; }
+    font-weight: 550;
+    color: #292929; }
   footer .container {
     padding-top: 60px;
     padding-bottom: 0;
     align-items: center; }
   footer .row {
-    padding-bottom: 36px; }
+    padding-bottom: 10px; }
   footer p {
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    line-height: 30px;
     padding: 10px 0;
     margin: 0;
     margin-bottom: 2em;
@@ -215,6 +221,8 @@ footer {
       color: #565656; }
   footer .fab {
     font-size: 1.5em; }
+  footer .padding-bottom-wider {
+    padding-bottom: 30px; }
   footer .copyright {
     text-align: center;
     color: #565656;
@@ -223,6 +231,9 @@ footer {
     font-weight: 300;
     font-size: .8em; }
 
+@media only screen and (max-width: 576px) {
+  footer .col {
+    padding-bottom: 30px; } }
 .fa-facebook {
   color: #3B5998; }
 
@@ -250,9 +261,9 @@ footer {
     text-align: center;
     font-size: 45px; }
   #about h4 {
-    font-size: 28px; } }
+    font-size: 21px; } }
 #about_intro {
-  padding: 100px 50px;
+  padding: 100px 2%;
   background: #f3f3f3; }
   #about_intro h2 {
     font-size: 40px;
@@ -269,8 +280,17 @@ footer {
     line-height: 50px; }
 
 @media only screen and (max-width: 520px) {
-  #about_intro .contents {
-    padding: 5px 5%; } }
+  #about_intro {
+    padding: 80px 20px; }
+    #about_intro .general-heading_line {
+      margin: 15px auto; }
+    #about_intro h4 {
+      font-size: 20px;
+      line-height: 30px; }
+    #about_intro .contents {
+      padding: 5px 5%;
+      text-align: left;
+      line-height: 40px; } }
 #about_history {
   padding: 100px 50px; }
   #about_history .row {
@@ -292,8 +312,12 @@ footer {
     padding: 20px; }
 
 @media only screen and (max-width: 768px) {
-  #about_history .row {
-    padding: 0 0; } }
+  #about_history {
+    padding: 60px 10px; }
+    #about_history .row {
+      padding: 0 0; }
+    #about_history .col-md-6 {
+      padding-bottom: 30px; } }
 .logo-large {
   color: #1e94f4;
   font-size: 200px; }
@@ -323,6 +347,11 @@ footer {
     text-shadow: -1px -1px white, 1px 1px #333;
     font-weight: 500; }
 
+@media only screen and (max-width: 745px) {
+  #about_cooperator {
+    padding: 70px 0; }
+    #about_cooperator h4 {
+      font-size: 25px; } }
 /*slide animation*/
 .slideanim {
   visibility: hidden; }

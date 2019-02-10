@@ -13,7 +13,7 @@
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     font-size: 21px;
     font-weight: 500;
-    color: rgb(82, 82, 82);
+    color: rgb(53, 53, 53);
   }
   a:hover {
     color: rgb(0, 51, 206);
@@ -143,6 +143,21 @@ nav li a{
   }
 }
 
+@media only screen and (max-width : 576px) {
+  #services {
+    padding: 60px 20px;
+    .col-lg-3{
+      padding-bottom: 50px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    h4{
+      font-size: 22px;
+    }
+  }
+}
+
 .general-heading_line{
   background-color: #1e94f4;
   height: 4px;
@@ -179,42 +194,26 @@ a.effect-shine:hover {
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     padding: 20px;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
+    word-break: keep-all;
   }
-  
-}
 
-.btn {
-  font-family: Lato, Roboto, "Noto Sans TC", "Microsoft JhengHei", sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 700;
-  font-size: 15px;
-  letter-spacing: 3px;
-  display: inline-block;
-  vertical-align: middle;
-  background-color: #1e94f4;
-  padding: 18px;
-  margin: 20px 0px;
-  text-decoration: none;
-}
+  $blue: #1e94f4;
+  @mixin transition($in) {
+    transition:$in;
+    -webkit-transition:$in;
+    -moz-transition:$in;
+    -o-transition:$in;
+    -ms-transition:$in;
+  }
 
-$red: #1e94f4;
-@mixin transition($in) {
-	transition:$in;
-	-webkit-transition:$in;
-	-moz-transition:$in;
-	-o-transition:$in;
-	-ms-transition:$in;
-}
-
-@mixin transform($in) {
-	transform:$in;
-	-webkit-transform:$in;
-	-moz-transform:$in;
-	-o-transform:$in;
-	-ms-transform:$in;
-}
+  @mixin transform($in) {
+    transform:$in;
+    -webkit-transform:$in;
+    -moz-transform:$in;
+    -o-transform:$in;
+    -ms-transform:$in;
+  }
 
 
 .myButt {
@@ -233,9 +232,8 @@ $red: #1e94f4;
 }
 
 
-
-
 .one {
+  font-size: 22px;
 	border-color:#fff;
 	overflow:hidden;
   color:#fff;
@@ -253,7 +251,7 @@ $red: #1e94f4;
 	}
 
 	&:hover {
-		background-color:$red;
+		background-color:$blue;
 		border-color:#fff;
 		color:#fff;
 
@@ -264,13 +262,33 @@ $red: #1e94f4;
 	}
 }
 
+}
+
+
+@media only screen and (max-width : 576px) {
+  #products {
+    padding: 70px 0;
+    h2{
+      font-size: 35px;
+    }
+    .one {
+      font-size: 20px;
+    }
+
+  }
+}
+
+
+
 
 footer {
   background-color: #f2f2f2;
   font-size: 14px;
   h3{
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     font-size: 16px;
-    color:rgb(62, 63, 63);
+    font-weight: 550;
+    color:rgb(41, 41, 41);
   }
   .container{
     padding-top: 60px;
@@ -278,9 +296,11 @@ footer {
     align-items: center;
   }
   .row{
-  padding-bottom: 36px;
+  padding-bottom: 10px;
   }
   p {
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    line-height: 30px;
     padding: 10px 0;
     margin: 0;
     margin-bottom: 2em;
@@ -293,6 +313,11 @@ footer {
   .fab {
     font-size: 1.5em;
   }
+
+  .padding-bottom-wider{
+    padding-bottom: 30px;
+  }
+
   .copyright{
     text-align: center;
     color: #565656;
@@ -303,6 +328,18 @@ footer {
   }
 
 }
+
+@media only screen and (max-width : 576px) {
+  footer {
+    
+    .col{
+      padding-bottom: 30px;
+    }
+    
+
+  }
+}
+
 
 .fa-facebook {
   color: #3B5998;
@@ -342,14 +379,14 @@ footer {
       font-size: 45px;
     }
     h4{
-      font-size: 28px;
+      font-size: 21px;
     }
   }
 }
 
 
 #about_intro {
-  padding: 100px 50px;
+  padding: 100px 2%;
   background: #f3f3f3;
 
   
@@ -373,8 +410,18 @@ footer {
 
 @media only screen and (max-width : 520px) {
   #about_intro {
+    padding: 80px 20px;
+    .general-heading_line{
+      margin: 15px auto;
+    }
+    h4{
+      font-size: 20px;
+      line-height: 30px;
+    }
     .contents{
       padding: 5px 5%;
+      text-align: left;
+      line-height: 40px;
     }
   }
 }
@@ -417,9 +464,14 @@ footer {
 
 @media only screen and (max-width : 768px) {
   #about_history {
+    padding: 60px 10px;
     .row{
       padding: 0 0;
     }
+    .col-md-6{
+      padding-bottom: 30px;
+    }
+
   }
 }
 
@@ -460,6 +512,17 @@ footer {
   }
 
 }
+
+@media only screen and (max-width : 745px) {
+  #about_cooperator {
+    padding: 70px 0;
+    h4{
+      font-size: 25px;
+    }
+
+  }
+}
+
 
 /*slide animation*/
 .slideanim {visibility:hidden;}

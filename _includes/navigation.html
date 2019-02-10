@@ -13,7 +13,7 @@
             {%- for item in site.data.navigation -%}
                 <li class="nav-item">
                     <div class="container highlightTextIn">
-                        <a class="nav-link effect-shine" href="{{ relative_url }}">
+                        <a class="nav-link effect-shine" href="{{ item.link }}">
                             {{ item.name }}
                         </a>
                     </div>

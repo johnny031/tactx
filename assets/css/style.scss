@@ -15,9 +15,24 @@
     font-weight: 500;
     color: rgb(53, 53, 53);
   }
-  a:hover {
-    color: rgb(0, 51, 206);
+
+  a.effect-shine:hover {
+  color: rgb(14, 53, 182);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
   }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+  
 }
  
 
@@ -167,21 +182,7 @@ nav li a{
 }
 
 
-a.effect-shine:hover {
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 1s infinite;
-}
 
-@-webkit-keyframes shine {
-  from {
-    -webkit-mask-position: 150%;
-  }
-  
-  to {
-    -webkit-mask-position: -50%;
-  }
-}
 
 #products{
   background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/machine_black.png');
@@ -557,3 +558,201 @@ footer {
     -webkit-transform: translateY(0%);
   }
 }
+
+#products_title{
+  height: 60vh;
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/products_title.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+
+
+    h2, h4{
+      font-size: 50px;
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      word-break: keep-all;
+      padding: 20px;
+      color: white;
+      text-shadow: black 0.1em 0.1em 0.2em
+    }
+
+    h4{   
+      font-size: 29px;
+    }
+  
+}
+@media only screen and (max-width : 580px) {
+  #products_title{
+    h2, h4{
+      text-align: center;
+      font-size: 45px;
+    }
+    h4{
+      font-size: 21px;
+    }
+  }
+}
+
+
+#products_CAD {
+  padding: 100px 50px 0 50px;
+
+  #CAD_title {
+    color: #1f1c1c;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  }
+
+  .products_logo{
+    width: 50%;
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+
+  h4{
+    font-weight: 550;
+    font-size: 30px;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    padding: 25px;
+
+  }
+}
+
+
+@media only screen and (max-width : 576px) {
+  #products_CAD {
+    padding: 60px 20px;
+    .col-lg-4{
+      padding-bottom: 50px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    h4{
+      font-size: 22px;
+    }
+  }
+}
+
+#products_transmitter {
+  padding: 100px 50px 50px 50px;
+
+  #transmitter_title {
+    color: #1f1c1c;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  }
+  .grid {
+    height: 50%;
+    padding: 10%;
+  }
+
+  .products_logo{
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  h5{
+    margin: 10%;
+    font-weight: 550;
+    font-size: 21px;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    padding: 25px;
+
+  }
+}
+
+
+figure {
+	background: #fff;
+	overflow: hidden;
+}
+
+figure:hover+h4 {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+.hover14 figure {
+	position: relative;
+}
+
+.hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+
+
+
+.hover14 figure:hover::before {
+	-webkit-animation: shine2 1.5s;
+  animation: shine2 1.5s;
+
+  @-webkit-keyframes shine2 {
+    100% {
+      left: 125%;
+    }
+  }
+  @keyframes shine2 {
+    100% {
+      left: 125%;
+    }
+  }
+  
+}
+
+
+
+.hover14 figure img, .hover14 h4 {
+  opacity: 1;
+  color: black;
+	-webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  
+  
+  
+}
+.hover14 figure:hover img, .hover14 h4:hover {
+  opacity: .5;
+  
+  color: rgb(8, 95, 224);
+  
+}
+.hover14 h5 {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  background-color: rgb(185, 232, 235);
+  box-shadow: 0px 0px 0px;
+  color: black;
+}
+.hover14 h5:hover {
+  opacity: 0.6;
+  background-color: rgb(8, 199, 24);
+  box-shadow: 2px 2px 6px rgb(5, 85, 19);
+  color: white;
+}
+
+
+
+ 

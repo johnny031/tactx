@@ -754,5 +754,166 @@ figure:hover+h4 {
 }
 
 
-
+#road {
+  padding: 0 90px;
+  display: flex;
+  a {
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: 13px;
+  }
+  a:hover {
+    color: rgb(26, 29, 236);
+  }
+  .contents {
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    color: rgb(204, 204, 204);
+    font-size: 13px;
+  }
+  .fa-angle-right {
+    position: relative;
+    top: 1.5px;
+    padding: 0 10px;
+    color: rgb(204, 204, 204);
+  } 
+}
  
+
+#CNCtransmitter_page_contents {
+  
+  h1 {
+    padding: 30px;
+    font-size: 50px;
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-weight: 560;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+  }
+
+  
+  .general_introduction{
+    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+  .row {
+    padding: 50px 0;
+    .col-lg-6 {
+      padding: 20px 20px;
+      
+    }
+
+    img{
+      width: 60%;
+    }
+
+    .download {
+      padding-top: 2px;
+    }
+  
+    .catalog {
+      padding-top: 2px;
+    }
+    a {
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out;
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      text-decoration: none;
+      color: rgb(141, 141, 141);
+    }
+    a:hover {
+      color: rgb(25, 192, 214);
+    }
+    h2 {
+      font-size: 25px;
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      margin: 0;
+      font-weight: bold;
+      line-height: 40px;
+    }
+    h3{
+      margin: 0;
+      font-size: 25px;
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      color: #353535;
+      font-weight: 600;
+      padding: 15px 0;
+      text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 2px 2px 2px rgba(28,110,164,0);
+    }
+
+    .fas, .far {
+      padding: 0 10px;
+    }
+
+    .advantages {
+      padding-left: 10px;
+    }
+    
+    .contents {
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      text-align: start;
+      line-height: 10px;
+    }
+    .indent {
+      text-indent: 37px;
+    }
+
+    .increase_left_padding {
+      padding-left: 130px;
+    }
+
+    .com_adv_title {
+      font-size: 40px;
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      font-weight: bold;
+      color: rgba(0,0,0,0.6);
+      text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    }
+    
+    .com_adv {
+      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .big {
+      padding: 40px 40px;
+      margin-bottom: 30px;
+      font-size: 100px;
+      color: white;
+      background-color: rgb(2, 30, 109);
+      border-radius: 500px;
+    }
+
+    .flat {
+      padding: 40px 55px;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 25px;
+      color: rgb(10, 160, 180);
+      text-shadow: 0.3px 0.3px 0.3px rgb(1, 60, 68);
+    }
+  }
+
+}
+
+
+

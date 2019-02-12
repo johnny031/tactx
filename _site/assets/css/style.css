@@ -214,7 +214,7 @@ footer {
     margin-bottom: 2em;
     color: #565656; }
     footer p a {
-      text-decoration: none;
+      text-decoration: none !important;
       color: #565656; }
   footer .fab {
     font-size: 1.5em; }

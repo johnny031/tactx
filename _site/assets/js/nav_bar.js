@@ -17,6 +17,10 @@ function add_nav_white() {
     if ($(window).width() > 768) {
       $(".push").addClass("order-last");
     }
+
+    if ($(window).width() > 992) {
+      $(".push_lg").addClass("order-last");
+    }
   })
   
   $(window).scroll(function(){

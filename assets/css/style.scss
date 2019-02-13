@@ -624,10 +624,29 @@ footer {
   }
 }
 
+@media only screen and (max-width : 1100px){
+#products_CAD {
+  .products_logo{
+    width: 70%;
+  }
+  h4 {
+    font-size: 27px;
+  }
+}
+
+}
+@media only screen and (max-width : 768px){
+#products_CAD {
+  .products_logo{
+    width: 200px;
+  }
+  
+}
+}
 
 @media only screen and (max-width : 576px) {
   #products_CAD {
-    padding: 60px 20px;
+    padding: 75px 20px 0 20px;
     .col-lg-4{
       padding-bottom: 50px;
     }
@@ -641,7 +660,7 @@ footer {
 }
 
 #products_transmitter {
-  padding: 100px 50px 50px 50px;
+  padding: 100px 50px 80px 50px;
 
   #transmitter_title {
     color: #1f1c1c;
@@ -651,11 +670,10 @@ footer {
     font-weight: 700;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
   }
-  .grid {
-    height: 50%;
-    padding: 10%;
+  
+  .col-lg-3 {
+    padding: 20px 39px;
   }
-
   .products_logo{
     width: 100%;
   }
@@ -663,19 +681,74 @@ footer {
     text-decoration: none;
   }
   h5{
-    margin: 10%;
+    margin: 0;
     font-weight: 550;
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     padding: 25px;
-
+    width: 100%;
   }
+
+  
+}
+
+@media only screen and (max-width : 1050px) {
+
+  #products_transmitter {
+    padding-bottom: 90px;
+    .col-lg-3 {
+      padding: 30px 25px;
+    }
+  
+    
+}
 }
 
 
+@media only screen and (max-width : 991px) {
+
+#products_transmitter {
+  
+  .col-lg-3 {
+    padding: 30px 60px;
+  }
+
+  
+}
+}
+
+@media only screen and (max-width : 767px) {
+
+  #products_transmitter {
+    .col-lg-3 {
+      padding: 50px 20%;
+    }
+  
+    
+}
+}
+
+@media only screen and (max-width : 576px) {
+
+  #products_transmitter {
+    padding: 70px 20px;
+    .general-heading_line {
+      margin-bottom: 0;
+    }
+    .col-lg-3 {
+      padding: 50px 14%;
+    }
+    h5 {
+      font-size: 19px;
+    }
+    
+}
+}
+
 figure {
 	background: #fff;
-	overflow: hidden;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 figure:hover+h4 {
@@ -1026,7 +1099,7 @@ figure:hover+h4 {
   }
 
   .increase_left_padding {
-    padding: 20px 9% !important;
+    padding: 20px 7.5% 20px 9% !important;
   }
 
 

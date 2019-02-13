@@ -418,9 +418,17 @@ footer {
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
     padding: 25px; }
 
+@media only screen and (max-width: 1100px) {
+  #products_CAD .products_logo {
+    width: 70%; }
+  #products_CAD h4 {
+    font-size: 27px; } }
+@media only screen and (max-width: 768px) {
+  #products_CAD .products_logo {
+    width: 200px; } }
 @media only screen and (max-width: 576px) {
   #products_CAD {
-    padding: 60px 20px; }
+    padding: 75px 20px 0 20px; }
     #products_CAD .col-lg-4 {
       padding-bottom: 50px; }
     #products_CAD h2 {
@@ -428,7 +436,7 @@ footer {
     #products_CAD h4 {
       font-size: 22px; } }
 #products_transmitter {
-  padding: 100px 50px 50px 50px; }
+  padding: 100px 50px 80px 50px; }
   #products_transmitter #transmitter_title {
     color: #1f1c1c;
     background: #FFFFFF;
@@ -436,23 +444,44 @@ footer {
     font-size: 40px;
     font-weight: 700;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
-  #products_transmitter .grid {
-    height: 50%;
-    padding: 10%; }
+  #products_transmitter .col-lg-3 {
+    padding: 20px 39px; }
   #products_transmitter .products_logo {
     width: 100%; }
   #products_transmitter a {
     text-decoration: none; }
   #products_transmitter h5 {
-    margin: 10%;
+    margin: 0;
     font-weight: 550;
-    font-size: 21px;
+    font-size: 20px;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-    padding: 25px; }
+    padding: 25px;
+    width: 100%; }
 
+@media only screen and (max-width: 1050px) {
+  #products_transmitter {
+    padding-bottom: 90px; }
+    #products_transmitter .col-lg-3 {
+      padding: 30px 25px; } }
+@media only screen and (max-width: 991px) {
+  #products_transmitter .col-lg-3 {
+    padding: 30px 60px; } }
+@media only screen and (max-width: 767px) {
+  #products_transmitter .col-lg-3 {
+    padding: 50px 20%; } }
+@media only screen and (max-width: 576px) {
+  #products_transmitter {
+    padding: 70px 20px; }
+    #products_transmitter .general-heading_line {
+      margin-bottom: 0; }
+    #products_transmitter .col-lg-3 {
+      padding: 50px 14%; }
+    #products_transmitter h5 {
+      font-size: 19px; } }
 figure {
   background: #fff;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 20px; }
 
 figure:hover + h4 {
   bottom: -36px;
@@ -675,7 +704,7 @@ figure:hover + h4 {
   #CNCtransmitter_page_contents .col-lg-4 {
     padding: 20px 20px; }
   #CNCtransmitter_page_contents .increase_left_padding {
-    padding: 20px 9% !important; }
+    padding: 20px 7.5% 20px 9% !important; }
   #CNCtransmitter_page_contents .contents {
     text-align: left; }
   #CNCtransmitter_page_contents h2 {

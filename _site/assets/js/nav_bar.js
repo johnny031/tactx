@@ -21,6 +21,13 @@ function add_nav_white() {
     if ($(window).width() > 992) {
       $(".push_lg").addClass("order-last");
     }
+
+    if ($(window).width() < 1200) {
+      $(".cut").removeClass("col-lg-4");
+    }
+    if ($(window).width() < 851) {
+      $(".cut").removeClass("col-md-6");
+    }
   })
   
   $(window).scroll(function(){

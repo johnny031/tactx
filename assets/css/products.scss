@@ -175,7 +175,7 @@
         font-size: 100px;
         color: white;
         background-color: rgb(2, 30, 109);
-        border-radius: 500px;
+        border-radius: 50%;
       }
   
       .flat {
@@ -303,6 +303,7 @@
   }
 
 #other-products {
+  padding-bottom: 70px;
   h2 {
     font-size: 30px;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
@@ -313,13 +314,11 @@
   }
   
   .s-logo {
-    color: rgb(206, 245, 252);
-    padding: 6px 11px;
-    margin: 0 3px;
-    background: rgb(10, 26, 99);
-    border-radius: 500px;
+    font-size: 30px; 
+    position: relative; 
+    top: 6px;
   }
-  a {
+  .text-effect {
     position: relative;
     display: inline-block;
     margin: 0;
@@ -332,17 +331,17 @@
     font-size: 1.35em;
     font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
   }
-  a:hover,
-  a:focus {
+  .text-effect:hover,
+  .text-effect:focus {
     outline: none;
   }
-  .hover-effect a {
-    color: rgb(255, 136, 0);
+  .hover-effect .text-effect {
+    color: rgb(113, 58, 216);
     text-shadow: none;
     padding: 10px 0;
   }
   
-  .hover-effect a::before {
+  .hover-effect .text-effect::before {
     color: rgb(19, 11, 145);
     text-shadow: 0.5px 0.5px 0.5px rgba(13, 24, 117, 0.849);
     content: attr(data-hover);
@@ -353,14 +352,14 @@
     pointer-events: none;
   }
   
-  .hover-effect a::after {
+  .hover-effect .text-effect::after {
     content: '';
     position: absolute;
     left: 0;
     bottom: 5px;
     width: 100%;
     height: 2px;
-    background: rgb(240, 73, 7);
+    background: rgb(113, 58, 216);
     opacity: 0;
 
     -webkit-transform: translateY(5px);
@@ -372,8 +371,8 @@
     pointer-events: none;
   }
   
-  .hover-effect a:hover::before,
-  .hover-effect a:focus::before {
+  .hover-effect .text-effect:hover::before,
+  .hover-effect .text-effect:focus::before {
     opacity: 0;
 
     -webkit-transform: translateY(-2px);
@@ -381,212 +380,141 @@
     transform: translateY(-2px);
   }
   
-  .hover-effect a:hover::after,
-  .hover-effect a:focus::after {
+  .hover-effect .text-effect:hover::after,
+  .hover-effect .text-effect:focus::after {
     opacity: 0.4;
 
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     transform: translateY(0px);
   }
+
+  .hi-icon-wrap {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .hi-icon {
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .hi-icon:after {
+    text-decoration: none;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+  }
+  
+  .hi-icon:before {
+    font-family: 'ecoicon';
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  .hi-icon-effect-3 .hi-icon {
+    box-shadow: 0 0 0 4px rgb(101, 0, 110);
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  
+  .hi-icon-effect-3 .hi-icon:after {
+    top: -2px;
+    left: -2px;
+    padding: 2px;
+    z-index: -1;
+    background: rgb(101, 0, 110);
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.3s;
+    transition: transform 0.2s, opacity 0.3s;
+  }
+  
+  /* Effect 3a */
+  .hi-icon-effect-3a .hi-icon {
+    color: #f0fdff;
+  }
+  
+  .hi-icon-effect-3a .hi-icon:hover {
+    color: rgb(101, 0, 110);
+  }
+  
+  .hi-icon-effect-3a .hi-icon:hover:after {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+  
+  @font-face {
+    font-family: 'ecoicon';
+    src:url('../fonts/ecoicons/ecoicon.eot');
+    src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/ecoicons/ecoicon.woff') format('woff'),
+      url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
+      url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .cut {
+    padding-left: 6%;
+  }
   
 }
 
-@font-face {
-	font-family: 'ecoicon';
-	src:url('../fonts/ecoicons/ecoicon.eot');
-	src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/ecoicons/ecoicon.woff') format('woff'),
-		url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
-		url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
-	font-weight: normal;
-	font-style: normal;
+@media only screen and (max-width : 1199px) {
+#other-products {
+  .cut {
+    padding-left: 11%;
+  }
 }
-.hi-icon-wrap {
-	text-align: center;
-	margin: 0 auto;
-	padding: 2em 0 3em;
 }
-
-.hi-icon {
-	display: inline-block;
-	font-size: 0px;
-	cursor: pointer;
-	margin: 15px 30px;
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-	text-align: center;
-	position: relative;
-	z-index: 1;
-	color: #fff;
+@media only screen and (max-width : 850px) {
+  #other-products {
+    .cut {
+      padding-left: 20px;
+    }
+    .hi-icon {
+      width: 30px;
+      height: 30px;
+    }
+    .s-logo {
+      font-size: 20px;
+      position: relative;
+      top: 5px;
+    }
+    .text-effect {
+      font-size: 1.3em;
+    }
+}
 }
 
-.hi-icon:after {
-	pointer-events: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	content: '';
-	-webkit-box-sizing: content-box; 
-	-moz-box-sizing: content-box; 
-	box-sizing: content-box;
-}
 
-.hi-icon:before {
-	font-family: 'ecoicon';
-	speak: none;
-	font-size: 48px;
-	line-height: 90px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	display: block;
-	-webkit-font-smoothing: antialiased;
-}
 
-.hi-icon-mobile:before {
-	content: "\e009";
-}
 
-.hi-icon-screen:before {
-	content: "\e00a";
-}
-
-.hi-icon-earth:before {
-	content: "\e002";
-}
-
-.hi-icon-support:before {
-	content: "\e000";
-}
-
-.hi-icon-locked:before {
-	content: "\e001";
-}
-
-.hi-icon-cog:before {
-	content: "\e003";
-}
-
-.hi-icon-clock:before {
-	content: "\e004";
-}
-
-.hi-icon-videos:before {
-	content: "\e005";
-}
-
-.hi-icon-list:before {
-	content: "\e006";
-}
-
-.hi-icon-refresh:before {
-	content: "\e007";
-}
-
-.hi-icon-images:before {
-	content: "\e008";
-}
-
-.hi-icon-pencil:before {
-	content: "\e00b";
-}
-
-.hi-icon-link:before {
-	content: "\e00c";
-}
-
-.hi-icon-mail:before {
-	content: "\e00d";
-}
-
-.hi-icon-location:before {
-	content: "\e00e";
-}
-
-.hi-icon-archive:before {
-	content: "\e00f";
-}
-
-.hi-icon-chat:before {
-	content: "\e010";
-}
-
-.hi-icon-bookmark:before {
-	content: "\e011";
-}
-
-.hi-icon-user:before {
-	content: "\e012";
-}
-
-.hi-icon-contract:before {
-	content: "\e013";
-}
-
-.hi-icon-star:before {
-	content: "\e014";
-}
-
-.hi-icon-effect-3 .hi-icon {
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: color 0.3s;
-	-moz-transition: color 0.3s;
-	transition: color 0.3s;
-}
-
-.hi-icon-effect-3 .hi-icon:after {
-	top: -2px;
-	left: -2px;
-	padding: 2px;
-	z-index: -1;
-	background: #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.2s, opacity 0.3s;
-	transition: transform 0.2s, opacity 0.3s;
-}
-
-/* Effect 3a */
-.hi-icon-effect-3a .hi-icon {
-	color: #f06060;
-}
-
-.hi-icon-effect-3a .hi-icon:hover {
-	color: #fff;
-}
-
-.hi-icon-effect-3a .hi-icon:hover:after {
-	-webkit-transform: scale(1.3);
-	-moz-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
-	opacity: 0;
-}
-
-/* Effect 3b */
-.hi-icon-effect-3b .hi-icon {
-	color: #fff;
-}
-
-.hi-icon-effect-3b .hi-icon:hover {
-	color: #f06060;
-}
-
-.hi-icon-effect-3b .hi-icon:after {
-	-webkit-transform: scale(1.3);
-	-moz-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
-	opacity: 0;
-}
-
-.hi-icon-effect-3b .hi-icon:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
-}

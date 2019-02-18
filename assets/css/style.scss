@@ -231,7 +231,7 @@
     -ms-transform: $in;
   }
 
-  .myButt {
+  .btn {
     outline: none;
     border: none;
     padding: 20px;
@@ -246,7 +246,7 @@
     @include transition(all 0.5s ease);
   }
 
-  .one {
+  .effect {
     font-size: 22px;
     border-color: #fff;
     overflow: hidden;
@@ -284,7 +284,7 @@
     h2 {
       font-size: 35px;
     }
-    .one {
+    .effect {
       font-size: 20px;
     }
   }

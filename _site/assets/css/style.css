@@ -143,7 +143,7 @@
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
     word-break: keep-all; }
-  #products .myButt {
+  #products .btn {
     outline: none;
     border: none;
     padding: 20px;
@@ -159,14 +159,14 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease; }
-  #products .one {
+  #products .effect {
     font-size: 22px;
     border-color: #fff;
     overflow: hidden;
     color: #fff;
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em; }
-    #products .one .insider {
+    #products .effect .insider {
       background-color: #fff;
       width: 100%;
       height: 20px;
@@ -177,11 +177,11 @@
       -moz-transform: rotateZ(45deg);
       -o-transform: rotateZ(45deg);
       -ms-transform: rotateZ(45deg); }
-    #products .one:hover {
+    #products .effect:hover {
       background-color: #1e94f4;
       border-color: #fff;
       color: #fff; }
-      #products .one:hover .insider {
+      #products .effect:hover .insider {
         transition: all 0.3s ease;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
@@ -194,7 +194,7 @@
     padding: 70px 0; }
     #products h2 {
       font-size: 35px; }
-    #products .one {
+    #products .effect {
       font-size: 20px; } }
 footer {
   background-color: #f2f2f2;

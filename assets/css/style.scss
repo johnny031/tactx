@@ -1,45 +1,50 @@
 ---
 ---
-.navbar{
+
+.navbar {
   background-color: rgb(207, 232, 241);
   padding: 25px 0;
   transition: all 1s ease;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(77, 77, 231, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
-  li a{
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  li a {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-size: 21px;
     font-weight: 500;
     color: rgb(53, 53, 53);
   }
 
   a.effect-shine:hover {
-  color: rgb(14, 53, 182);
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 1s infinite;
-}
+    color: rgb(14, 53, 182);
+    -webkit-mask-image: linear-gradient(
+      -75deg,
+      rgba(0, 0, 0, 0.6) 30%,
+      #000 50%,
+      rgba(0, 0, 0, 0.6) 70%
+    );
+    -webkit-mask-size: 200%;
+    animation: shine 1s infinite;
+  }
 
-@-webkit-keyframes shine {
-  from {
-    -webkit-mask-position: 150%;
-  }
-  
-  to {
-    -webkit-mask-position: -50%;
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+
+    to {
+      -webkit-mask-position: -50%;
+    }
   }
 }
-  
-}
- 
 
 .nav_white {
   background-color: white;
   padding: 0;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .2) !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
   li {
     a {
       color: #2d277e;
@@ -53,15 +58,13 @@
     md ≥ 768px
     Lg ≥ 992px
     xl ≥ 1200px */
-@media only screen and (max-width : 768px) {
-nav li a{
-  padding-left: 45px !important;
+@media only screen and (max-width: 768px) {
+  nav li a {
+    padding-left: 45px !important;
+  }
 }
-}
 
-
-
-.carousel-inner img{
+.carousel-inner img {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,65 +73,73 @@ nav li a{
 .carousel-caption {
   position: absolute;
   top: 20vh;
-  bottom:auto;
-  
-  .slogan1{
+  bottom: auto;
+
+  .slogan1 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-weight: 500;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
-  .slogan2{
+  .slogan2 {
     font-size: 70px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-weight: 500;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
-  .slogan3{
+  .slogan3 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-weight: 500;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
-  .slogan4{
+  .slogan4 {
     font-size: 60px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-    font-weight: 500; 
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-weight: 500;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
-  .slogan5{
+  .slogan5 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-weight: 500;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
-  .slogan6{
+  .slogan6 {
     font-size: 70px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-weight: 500;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 }
 
-
-@media only screen and (max-width : 806px) {
+@media only screen and (max-width: 806px) {
   .carousel-caption {
-  top: 40vh;
-    .slogan1, .slogan3, .slogan5{
+    top: 40vh;
+    .slogan1,
+    .slogan3,
+    .slogan5 {
       font-size: 40px;
     }
-    .slogan2, .slogan4, .slogan6{
+    .slogan2,
+    .slogan4,
+    .slogan6 {
       font-size: 20px;
     }
   }
 }
-
 
 .logo-small {
   color: #1e94f4;
@@ -140,40 +151,41 @@ nav li a{
   font-size: 50px;
 }
 
-
 #services {
   padding: 100px 50px;
-  .col-lg-3{
+  .col-lg-3 {
     padding-bottom: 90px;
   }
-  h2{
+  h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
   }
-  h4{
+  h4 {
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 25px;
   }
 }
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width: 576px) {
   #services {
     padding: 60px 20px;
-    .col-lg-3{
+    .col-lg-3 {
       padding-bottom: 50px;
     }
-    h2{
+    h2 {
       font-size: 35px;
     }
-    h4{
+    h4 {
       font-size: 22px;
     }
   }
 }
 
-.general-heading_line{
+.general-heading_line {
   background-color: #1e94f4;
   height: 4px;
   line-height: 0;
@@ -181,18 +193,21 @@ nav li a{
   margin: 20px auto 50px;
 }
 
-
-
-
-#products{
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/machine_black.png');
+#products {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("{{ site.baseurl }}/assets/img/machine_black.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
 
-  h2{
+  h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -201,106 +216,101 @@ nav li a{
 
   $blue: #1e94f4;
   @mixin transition($in) {
-    transition:$in;
-    -webkit-transition:$in;
-    -moz-transition:$in;
-    -o-transition:$in;
-    -ms-transition:$in;
+    transition: $in;
+    -webkit-transition: $in;
+    -moz-transition: $in;
+    -o-transition: $in;
+    -ms-transition: $in;
   }
 
   @mixin transform($in) {
-    transform:$in;
-    -webkit-transform:$in;
-    -moz-transform:$in;
-    -o-transform:$in;
-    -ms-transform:$in;
+    transform: $in;
+    -webkit-transform: $in;
+    -moz-transform: $in;
+    -o-transform: $in;
+    -ms-transform: $in;
   }
 
+  .myButt {
+    outline: none;
+    border: none;
+    padding: 20px;
+    display: block;
+    margin: 50px auto;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent;
+    position: relative;
+    border: 2px solid #fff;
 
-.myButt {
-	outline:none;
-	border:none;
-	padding:20px;
-	display:block;
-	margin:50px auto;
-	cursor:pointer;
-	font-size:20px;
-	background-color:transparent;
-	position:relative;
-	border:2px solid #fff;
+    @include transition(all 0.5s ease);
+  }
 
-	@include transition(all 0.5s ease);
+  .one {
+    font-size: 22px;
+    border-color: #fff;
+    overflow: hidden;
+    color: #fff;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    .insider {
+      background-color: #fff;
+      width: 100%;
+      height: 20px;
+      position: absolute;
+      left: -135px;
+
+      @include transform(rotateZ(45deg));
+    }
+
+    &:hover {
+      background-color: $blue;
+      border-color: #fff;
+      color: #fff;
+
+      .insider {
+        @include transition(all 0.3s ease);
+        left: 135px;
+      }
+    }
+  }
 }
 
-
-.one {
-  font-size: 22px;
-	border-color:#fff;
-	overflow:hidden;
-  color:#fff;
-  font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-  text-shadow: black 0.1em 0.1em 0.2em;
-
-	.insider {
-		background-color:#fff;
-		width:100%;
-		height:20px;
-		position:absolute;
-		left:-135px;
-
-		@include transform(rotateZ(45deg));
-	}
-
-	&:hover {
-		background-color:$blue;
-		border-color:#fff;
-		color:#fff;
-
-		.insider {
-			@include transition(all 0.3s ease);
-			left:135px;
-		}
-	}
-}
-
-}
-
-
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width: 576px) {
   #products {
     padding: 70px 0;
-    h2{
+    h2 {
       font-size: 35px;
     }
     .one {
       font-size: 20px;
     }
-
   }
 }
-
-
-
 
 footer {
   background-color: #f2f2f2;
   font-size: 14px;
-  h3{
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  h3 {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-size: 16px;
     font-weight: 550;
-    color:rgb(41, 41, 41);
+    color: rgb(41, 41, 41);
   }
-  .container{
+  .container {
     padding-top: 60px;
     padding-bottom: 0;
     align-items: center;
   }
-  .row{
-  padding-bottom: 10px;
+  .row {
+    padding-bottom: 10px;
   }
   p {
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     line-height: 30px;
     padding: 10px 0;
     margin: 0;
@@ -315,111 +325,112 @@ footer {
     font-size: 1.5em;
   }
 
-  .padding-bottom-wider{
+  .padding-bottom-wider {
     padding-bottom: 30px;
   }
 
-  .copyright{
+  .copyright {
     text-align: center;
     color: #565656;
     margin: 0;
     padding: 0 0 3em;
     font-weight: 300;
-    font-size: .8em;
+    font-size: 0.8em;
   }
-
 }
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width: 576px) {
   footer {
-    
-    .col{
+    .col {
       padding-bottom: 30px;
     }
-    
-
   }
 }
 
-
 .fa-facebook {
-  color: #3B5998;
+  color: #3b5998;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover {
   opacity: 0.5;
 }
 
-
-#about{
+#about {
   height: 91vh;
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/city2.png');
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("{{ site.baseurl }}/assets/img/city2.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 320px;
 
+  h2,
+  h4 {
+    font-size: 50px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    word-break: keep-all;
+    padding: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
 
-    h2, h4{
-      font-size: 50px;
-      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-      word-break: keep-all;
-      padding: 20px;
-      color: white;
-      text-shadow: black 0.1em 0.1em 0.2em
-    }
-
-    h4{   
-      font-size: 35px;
-    }
-  
+  h4 {
+    font-size: 35px;
+  }
 }
-@media only screen and (max-width : 580px) {
-  #about{
-    h2, h4{
+@media only screen and (max-width: 580px) {
+  #about {
+    h2,
+    h4 {
       text-align: center;
       font-size: 45px;
     }
-    h4{
+    h4 {
       font-size: 21px;
     }
   }
 }
 
-
 #about_intro {
   padding: 100px 2%;
   background: #f3f3f3;
 
-  
-  h2{
+  h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 0;
   }
-  h4{
+  h4 {
     font-size: 25px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 25px;
   }
-  .contents{
+  .contents {
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 5px 15%;
     line-height: 50px;
   }
 }
 
-@media only screen and (max-width : 520px) {
+@media only screen and (max-width: 520px) {
   #about_intro {
     padding: 80px 20px;
-    .general-heading_line{
+    .general-heading_line {
       margin: 15px auto;
     }
-    h4{
+    h4 {
       font-size: 20px;
       line-height: 30px;
     }
-    .contents{
+    .contents {
       padding: 5px 5%;
       text-align: left;
       line-height: 40px;
@@ -427,233 +438,243 @@ footer {
   }
 }
 
-
-#about_history{  
-  
+#about_history {
   padding: 100px 50px;
 
-  .row{
+  .row {
     padding: 38px 0px;
   }
 
-  .col-md-6{
+  .col-md-6 {
     padding-bottom: 50px;
   }
 
-  h2{
+  h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
   }
 
-  h4, .contents{
+  h4,
+  .contents {
     text-align: left;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
   }
 
-
-
-  .contents{
+  .contents {
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
   }
-  
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   #about_history {
     padding: 60px 10px;
-    .row{
+    .row {
       padding: 0 0;
     }
-    .col-md-6{
+    .col-md-6 {
       padding-bottom: 30px;
     }
-
   }
 }
 
-
-.logo-large{
+.logo-large {
   color: #1e94f4;
   font-size: 200px;
 }
 
-.logo-flag{
+.logo-flag {
   color: #1e94f4;
   font-size: 30px;
 }
 
 #about_cooperator {
   padding: 100px 50px;
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/handshake3.png');
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("{{ site.baseurl }}/assets/img/handshake3.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
-  
-  h2{
+
+  h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
-  h4{
+  h4 {
     text-align: center;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 20px;
     color: lightgray;
     text-shadow: -1px -1px white, 1px 1px #333;
     font-weight: 500;
   }
-
 }
 
-@media only screen and (max-width : 745px) {
+@media only screen and (max-width: 745px) {
   #about_cooperator {
     padding: 70px 15px;
-    h4{
+    h4 {
       font-size: 25px;
     }
-
   }
 }
 
-
 /*slide animation*/
-.slideanim {visibility:hidden;}
+.slideanim {
+  visibility: hidden;
+}
 .slide {
   /* The name of the animation */
   animation-name: slide;
-  -webkit-animation-name: slide; 
+  -webkit-animation-name: slide;
   /* The duration of the animation */
-  animation-duration: 1s; 
+  animation-duration: 1s;
   -webkit-animation-duration: 1s;
   /* Make the element visible */
-  visibility: visible; 
+  visibility: visible;
 }
 
 @keyframes slide {
   0% {
     opacity: 0;
     transform: translateY(70%);
-  } 
+  }
   100% {
     opacity: 1;
     transform: translateY(0%);
-  } 
+  }
 }
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
     -webkit-transform: translateY(70%);
-  } 
+  }
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
 }
 
-#products_title{
+#products_title {
   height: 60vh;
-  background-image: linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)),url('{{ site.baseurl }}/assets/img/products_title.png');
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("{{ site.baseurl }}/assets/img/products_title.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px;
 
+  h2,
+  h4 {
+    font-size: 50px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    word-break: keep-all;
+    padding: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
 
-    h2, h4{
-      font-size: 50px;
-      font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
-      word-break: keep-all;
-      padding: 20px;
-      color: white;
-      text-shadow: black 0.1em 0.1em 0.2em
-    }
-
-    h4{   
-      font-size: 29px;
-    }
-  
+  h4 {
+    font-size: 29px;
+  }
 }
-@media only screen and (max-width : 580px) {
-  #products_title{
-    h2, h4{
+@media only screen and (max-width: 580px) {
+  #products_title {
+    h2,
+    h4 {
       text-align: center;
       font-size: 45px;
     }
-    h4{
+    h4 {
       font-size: 21px;
     }
   }
 }
-
 
 #products_CAD {
   padding: 100px 50px 0 50px;
 
   #CAD_title {
     color: #1f1c1c;
-    background: #FFFFFF;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    background: #ffffff;
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+      1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+      4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+      4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+      7px 6px 1px #cccccc;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
   }
 
-  .products_logo{
+  .products_logo {
     width: 50%;
   }
-
 
   a {
     text-decoration: none;
   }
 
-  h4{
+  h4 {
     font-weight: 550;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 25px;
-
   }
 }
 
-@media only screen and (max-width : 1100px){
-#products_CAD {
-  .products_logo{
-    width: 70%;
+@media only screen and (max-width: 1100px) {
+  #products_CAD {
+    .products_logo {
+      width: 70%;
+    }
+    h4 {
+      font-size: 27px;
+    }
   }
-  h4 {
-    font-size: 27px;
+}
+@media only screen and (max-width: 768px) {
+  #products_CAD {
+    .products_logo {
+      width: 200px;
+    }
   }
 }
 
-}
-@media only screen and (max-width : 768px){
-#products_CAD {
-  .products_logo{
-    width: 200px;
-  }
-  
-}
-}
-
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width: 576px) {
   #products_CAD {
     padding: 75px 20px 0 20px;
-    .col-lg-4{
+    .col-lg-4 {
       padding-bottom: 50px;
     }
-    h2{
+    h2 {
       font-size: 35px;
     }
-    h4{
+    h4 {
       font-size: 22px;
     }
   }
@@ -664,72 +685,64 @@ footer {
 
   #transmitter_title {
     color: #1f1c1c;
-    background: #FFFFFF;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    background: #ffffff;
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+      1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+      4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+      4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+      7px 6px 1px #cccccc;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
   }
-  
+
   .col-lg-3 {
     padding: 20px 39px;
   }
-  .products_logo{
+  .products_logo {
     width: 100%;
   }
   a {
     text-decoration: none;
   }
-  h5{
+  h5 {
     margin: 0;
     font-weight: 550;
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     padding: 25px;
     width: 100%;
   }
-
-  
 }
 
-@media only screen and (max-width : 1050px) {
-
+@media only screen and (max-width: 1050px) {
   #products_transmitter {
     padding-bottom: 90px;
     .col-lg-3 {
       padding: 30px 25px;
     }
-  
-    
-}
-}
-
-
-@media only screen and (max-width : 991px) {
-
-#products_transmitter {
-  
-  .col-lg-3 {
-    padding: 30px 60px;
   }
-
-  
-}
 }
 
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width: 991px) {
+  #products_transmitter {
+    .col-lg-3 {
+      padding: 30px 60px;
+    }
+  }
+}
 
+@media only screen and (max-width: 767px) {
   #products_transmitter {
     .col-lg-3 {
       padding: 50px 20%;
     }
-  
-    
-}
+  }
 }
 
-@media only screen and (max-width : 576px) {
-
+@media only screen and (max-width: 576px) {
   #products_transmitter {
     padding: 70px 20px;
     .general-heading_line {
@@ -741,45 +754,49 @@ footer {
     h5 {
       font-size: 19px;
     }
-    
-}
+  }
 }
 
 figure {
-	background: #fff;
+  background: #fff;
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-figure:hover+h4 {
-	bottom: -36px;
-	opacity: 1;
+figure:hover + h4 {
+  bottom: -36px;
+  opacity: 1;
 }
 
-
-.hover14 figure {
-	position: relative;
+.hover-effect figure {
+  position: relative;
 }
 
-.hover14 figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
+.hover-effect figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
 
-
-
-.hover14 figure:hover::before {
-	-webkit-animation: shine2 1.5s;
+.hover-effect figure:hover::before {
+  -webkit-animation: shine2 1.5s;
   animation: shine2 1.5s;
 
   @-webkit-keyframes shine2 {
@@ -792,40 +809,31 @@ figure:hover+h4 {
       left: 125%;
     }
   }
-  
 }
 
-
-
-.hover14 figure img, .hover14 h4 {
+.hover-effect figure img,
+.hover-effect h4 {
   opacity: 1;
   color: black;
-	-webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
-  
-  
-  
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
-.hover14 figure:hover img, .hover14 h4:hover {
-  opacity: .5;
-  
+.hover-effect figure:hover img,
+.hover-effect h4:hover {
+  opacity: 0.5;
+
   color: rgb(8, 95, 224);
-  
 }
-.hover14 h5 {
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+.hover-effect h5 {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   background-color: rgb(185, 232, 235);
   box-shadow: 0px 0px 0px;
   color: black;
 }
-.hover14 h5:hover {
+.hover-effect h5:hover {
   opacity: 0.6;
   background-color: rgb(8, 199, 24);
   box-shadow: 2px 2px 6px rgb(5, 85, 19);
   color: white;
 }
-
-
-
-

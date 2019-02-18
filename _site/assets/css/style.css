@@ -7,7 +7,7 @@
   .navbar .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(77, 77, 231, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
   .navbar li a {
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-size: 21px;
     font-weight: 500;
     color: #353535; }
@@ -48,37 +48,37 @@
   bottom: auto; }
   .carousel-caption .slogan1 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   .carousel-caption .slogan2 {
     font-size: 70px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   .carousel-caption .slogan3 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   .carousel-caption .slogan4 {
     font-size: 60px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   .carousel-caption .slogan5 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   .carousel-caption .slogan6 {
     font-size: 70px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-weight: 500;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
@@ -86,9 +86,13 @@
 @media only screen and (max-width: 806px) {
   .carousel-caption {
     top: 40vh; }
-    .carousel-caption .slogan1, .carousel-caption .slogan3, .carousel-caption .slogan5 {
+    .carousel-caption .slogan1,
+    .carousel-caption .slogan3,
+    .carousel-caption .slogan5 {
       font-size: 40px; }
-    .carousel-caption .slogan2, .carousel-caption .slogan4, .carousel-caption .slogan6 {
+    .carousel-caption .slogan2,
+    .carousel-caption .slogan4,
+    .carousel-caption .slogan6 {
       font-size: 20px; } }
 .logo-small {
   color: #1e94f4;
@@ -104,11 +108,11 @@
     padding-bottom: 90px; }
   #services h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px; }
   #services h4 {
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 25px; }
 
 @media only screen and (max-width: 576px) {
@@ -134,7 +138,7 @@
   padding: 100px; }
   #products h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -160,7 +164,7 @@
     border-color: #fff;
     overflow: hidden;
     color: #fff;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     text-shadow: black 0.1em 0.1em 0.2em; }
     #products .one .insider {
       background-color: #fff;
@@ -196,7 +200,7 @@ footer {
   background-color: #f2f2f2;
   font-size: 14px; }
   footer h3 {
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-size: 16px;
     font-weight: 550;
     color: #292929; }
@@ -207,7 +211,7 @@ footer {
   footer .row {
     padding-bottom: 10px; }
   footer p {
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     line-height: 30px;
     padding: 10px 0;
     margin: 0;
@@ -226,13 +230,13 @@ footer {
     margin: 0;
     padding: 0 0 3em;
     font-weight: 300;
-    font-size: .8em; }
+    font-size: 0.8em; }
 
 @media only screen and (max-width: 576px) {
   footer .col {
     padding-bottom: 30px; } }
 .fa-facebook {
-  color: #3B5998; }
+  color: #3b5998; }
 
 .fa-facebook:hover {
   opacity: 0.5; }
@@ -243,9 +247,10 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 320px; }
-  #about h2, #about h4 {
+  #about h2,
+  #about h4 {
     font-size: 50px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     word-break: keep-all;
     padding: 20px;
     color: white;
@@ -254,7 +259,8 @@ footer {
     font-size: 35px; }
 
 @media only screen and (max-width: 580px) {
-  #about h2, #about h4 {
+  #about h2,
+  #about h4 {
     text-align: center;
     font-size: 45px; }
   #about h4 {
@@ -264,15 +270,15 @@ footer {
   background: #f3f3f3; }
   #about_intro h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 0; }
   #about_intro h4 {
     font-size: 25px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 25px; }
   #about_intro .contents {
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 5px 15%;
     line-height: 50px; }
 
@@ -296,16 +302,17 @@ footer {
     padding-bottom: 50px; }
   #about_history h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px; }
-  #about_history h4, #about_history .contents {
+  #about_history h4,
+  #about_history .contents {
     text-align: left;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px; }
   #about_history .contents {
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px; }
 
 @media only screen and (max-width: 768px) {
@@ -331,14 +338,14 @@ footer {
   opacity: 0.8; }
   #about_cooperator h2 {
     font-size: 40px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em; }
   #about_cooperator h4 {
     text-align: center;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px;
     color: lightgray;
     text-shadow: -1px -1px white, 1px 1px #333;
@@ -383,9 +390,10 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px; }
-  #products_title h2, #products_title h4 {
+  #products_title h2,
+  #products_title h4 {
     font-size: 50px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     word-break: keep-all;
     padding: 20px;
     color: white;
@@ -394,7 +402,8 @@ footer {
     font-size: 29px; }
 
 @media only screen and (max-width: 580px) {
-  #products_title h2, #products_title h4 {
+  #products_title h2,
+  #products_title h4 {
     text-align: center;
     font-size: 45px; }
   #products_title h4 {
@@ -403,11 +412,11 @@ footer {
   padding: 100px 50px 0 50px; }
   #products_CAD #CAD_title {
     color: #1f1c1c;
-    background: #FFFFFF;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    background: #ffffff;
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
   #products_CAD .products_logo {
     width: 50%; }
   #products_CAD a {
@@ -415,7 +424,7 @@ footer {
   #products_CAD h4 {
     font-weight: 550;
     font-size: 30px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 25px; }
 
 @media only screen and (max-width: 1100px) {
@@ -439,11 +448,11 @@ footer {
   padding: 100px 50px 80px 50px; }
   #products_transmitter #transmitter_title {
     color: #1f1c1c;
-    background: #FFFFFF;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    background: #ffffff;
+    text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
   #products_transmitter .col-lg-3 {
     padding: 20px 39px; }
   #products_transmitter .products_logo {
@@ -454,7 +463,7 @@ footer {
     margin: 0;
     font-weight: 550;
     font-size: 20px;
-    font-family: 'Lato', 'Roboto', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 25px;
     width: 100%; }
 
@@ -487,16 +496,16 @@ figure:hover + h4 {
   bottom: -36px;
   opacity: 1; }
 
-.hover14 figure {
+.hover-effect figure {
   position: relative; }
 
-.hover14 figure::before {
+.hover-effect figure::before {
   position: absolute;
   top: 0;
   left: -75%;
   z-index: 2;
   display: block;
-  content: '';
+  content: "";
   width: 50%;
   height: 100%;
   background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
@@ -504,7 +513,7 @@ figure:hover + h4 {
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg); }
 
-.hover14 figure:hover::before {
+.hover-effect figure:hover::before {
   -webkit-animation: shine2 1.5s;
   animation: shine2 1.5s; }
 @-webkit-keyframes shine2 {
@@ -513,24 +522,26 @@ figure:hover + h4 {
 @keyframes shine2 {
   100% {
     left: 125%; } }
-.hover14 figure img, .hover14 h4 {
+.hover-effect figure img,
+.hover-effect h4 {
   opacity: 1;
   color: black;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out; }
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out; }
 
-.hover14 figure:hover img, .hover14 h4:hover {
-  opacity: .5;
+.hover-effect figure:hover img,
+.hover-effect h4:hover {
+  opacity: 0.5;
   color: #085fe0; }
 
-.hover14 h5 {
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+.hover-effect h5 {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
   background-color: #b9e8eb;
   box-shadow: 0px 0px 0px;
   color: black; }
 
-.hover14 h5:hover {
+.hover-effect h5:hover {
   opacity: 0.6;
   background-color: #08c718;
   box-shadow: 2px 2px 6px #055513;

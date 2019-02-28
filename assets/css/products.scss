@@ -355,7 +355,7 @@
     left: 0;
     bottom: 5px;
     width: 100%;
-    height: 2px;
+    height: 2px; //underline
     background: rgb(113, 58, 216);
     opacity: 0;
 
@@ -379,7 +379,7 @@
 
   .hover-effect .text-effect:hover::after,
   .hover-effect .text-effect:focus::after {
-    opacity: 0.4;
+    opacity: 0.4; //underline opacity
 
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
@@ -433,38 +433,37 @@
   }
 
   .hi-icon-effect .hi-icon {
-    box-shadow: 0 0 0 4px rgb(101, 0, 110);
+    box-shadow: 0 0 0 4px rgb(101, 0, 110); //circle shadow
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     transition: color 0.3s;
   }
 
   .hi-icon-effect .hi-icon:after {
-    top: -2px;
+    top: -2px; //background
     left: -2px;
     padding: 2px;
     z-index: -1;
     background: rgb(101, 0, 110);
     -webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
     -moz-transition: -moz-transform 0.2s, opacity 0.3s;
-    transition: transform 0.2s, opacity 0.3s;
+    transition: transform 0.2s, opacity 0.3s; //expand time, opacity time
   }
 
-  /* Effect 3a */
   .hi-icon-effect-1 .hi-icon {
     color: #f0fdff;
   }
 
   .hi-icon-effect-1 .hi-icon:hover {
-    color: rgb(101, 0, 110);
+    color: rgb(101, 0, 110); //on hover icon color
   }
 
   .hi-icon-effect-1 .hi-icon:hover:after {
     -webkit-transform: scale(1.3);
     -moz-transform: scale(1.3);
     -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0;
+    transform: scale(1.3); //background expand
+    opacity: 0; //background disappear
   }
 
   .cut {
@@ -495,6 +494,66 @@
     }
     .text-effect {
       font-size: 1.3em;
+    }
+  }
+}
+
+#NC_page_contents {
+  h1 {
+    padding: 30px;
+    font-size: 47px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-weight: 560;
+
+    text-shadow: 3px 3px 0px #e2dccc, 6px 9px 8px rgba(0, 0, 0, 0.15);
+  }
+  .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first_line::before {
+    content: "WinVIEW – 是日本TACTX CAD/CAM軟體中的模擬器及連線功能";
+  }
+
+  .second_line::before {
+    content: "可模擬一般的GM碼NC程式產生刀具軌跡，並經由RS-232介面傳輸NC程式到CNC機器上";
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #NC_page_contents {
+    h1 {
+      font-size: 38px;
+    }
+    .general_introduction {
+      font-size: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 513px) {
+  #NC_page_contents {
+    h1 {
+      font-size: 36px;
+    }
+    #NC-supportedCNC {
+      filter: url(#pictureFilter);
+    }
+    .general_introduction {
+      font-size: 17px;
+    }
+    .first_line::before {
+      content: "WinVIEW – 是日本TACTX CAD/CAM軟體中的模擬器及連線功能，可模擬一般的GM碼NC程式產生刀具軌跡，並經由RS-232介面傳輸NC程式到CNC機器上";
+    }
+
+    .second_line::before {
+      content: "";
     }
   }
 }

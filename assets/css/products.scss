@@ -557,3 +557,62 @@
     }
   }
 }
+
+#SolidCAM {
+  h1 {
+    padding: 30px;
+    font-size: 47px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-weight: 560;
+
+    text-shadow: 3px 3px 0px #e2dccc, 6px 9px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  img {
+    width: 35%;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #SolidCAM {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #SolidCAM {
+    h1 {
+      padding: 50px 0 30px 0;
+    }
+
+    .general_introduction {
+      line-height: 28px;
+      font-weight: 550;
+      font-size: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #SolidCAM {
+    h1 {
+      font-size: 37px;
+    }
+
+    .general_introduction {
+      line-height: 24px;
+      font-size: 14px;
+    }
+    img {
+      width: 45%;
+      padding: 5px;
+    }
+  }
+}

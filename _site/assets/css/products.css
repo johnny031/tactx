@@ -359,3 +359,37 @@
     content: "WinVIEW – 是日本TACTX CAD/CAM軟體中的模擬器及連線功能，可模擬一般的GM碼NC程式產生刀具軌跡，並經由RS-232介面傳輸NC程式到CNC機器上"; }
   #NC_page_contents .second_line::before {
     content: ""; } }
+#SolidCAM h1 {
+  padding: 30px;
+  font-size: 47px;
+  font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-weight: 560;
+  text-shadow: 3px 3px 0px #e2dccc, 6px 9px 8px rgba(0, 0, 0, 0.15); }
+#SolidCAM .general_introduction {
+  font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  line-height: 34px;
+  font-weight: 600;
+  font-size: 20px; }
+#SolidCAM img {
+  width: 35%;
+  padding: 10px; }
+
+@media only screen and (max-width: 1199px) {
+  #SolidCAM {
+    padding-bottom: 30px; } }
+@media only screen and (max-width: 992px) {
+  #SolidCAM h1 {
+    padding: 50px 0 30px 0; }
+  #SolidCAM .general_introduction {
+    line-height: 28px;
+    font-weight: 550;
+    font-size: 17px; } }
+@media only screen and (max-width: 768px) {
+  #SolidCAM h1 {
+    font-size: 37px; }
+  #SolidCAM .general_introduction {
+    line-height: 24px;
+    font-size: 14px; }
+  #SolidCAM img {
+    width: 45%;
+    padding: 5px; } }

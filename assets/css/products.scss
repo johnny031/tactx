@@ -569,6 +569,16 @@
     text-shadow: 3px 3px 0px #e2dccc, 6px 9px 8px rgba(0, 0, 0, 0.15);
   }
 
+  a {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: rgb(207, 107, 24);
+  }
+  a:hover {
+    color: rgb(126, 0, 0);
+  }
+
   .general_introduction {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
@@ -584,6 +594,10 @@
 @media only screen and (max-width: 1199px) {
   #SolidCAM {
     padding-bottom: 30px;
+    img {
+      width: 45%;
+      padding: 10px;
+    }
   }
 }
 @media only screen and (max-width: 992px) {
@@ -611,7 +625,7 @@
       font-size: 14px;
     }
     img {
-      width: 45%;
+      width: 80%;
       padding: 5px;
     }
   }

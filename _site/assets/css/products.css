@@ -403,3 +403,70 @@
   #SolidCAM img {
     width: 80%;
     padding: 5px; } }
+#iMachining {
+  padding-bottom: 70px; }
+  #iMachining h1 {
+    padding: 30px;
+    font-size: 47px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 560;
+    text-shadow: 3px 3px 0px #e2dccc, 6px 9px 8px rgba(0, 0, 0, 0.15); }
+  #iMachining h2 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    padding: 20px;
+    text-align: center; }
+  #iMachining iframe {
+    padding: 10px;
+    width: 100%;
+    height: 100%; }
+  #iMachining .video-wrapper {
+    position: relative;
+    height: 300px;
+    overflow: hidden; }
+  #iMachining a {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #cf6b18; }
+  #iMachining a:hover {
+    color: #7e0000; }
+  #iMachining .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px; }
+  #iMachining img {
+    width: 60%;
+    padding: 10px; }
+
+@media only screen and (max-width: 1500px) {
+  #iMachining {
+    padding-bottom: 30px; }
+    #iMachining img {
+      width: 90%;
+      padding: 10px; } }
+@media only screen and (max-width: 992px) {
+  #iMachining h1 {
+    padding: 50px 0 30px 0; }
+  #iMachining .general_introduction {
+    line-height: 28px;
+    font-weight: 550;
+    font-size: 17px; }
+  #iMachining .video-wrapper {
+    height: 200px; } }
+@media only screen and (max-width: 768px) {
+  #iMachining h1 {
+    font-size: 37px; }
+  #iMachining .general_introduction {
+    line-height: 24px;
+    font-size: 14px; }
+  #iMachining img {
+    width: 100%;
+    padding: 0; }
+  #iMachining .video-wrapper {
+    height: 300px;
+    padding-bottom: 30px; } }
+@media only screen and (max-width: 415px) {
+  #iMachining .video-wrapper {
+    height: 260px; } }

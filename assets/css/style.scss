@@ -63,7 +63,20 @@
     padding-left: 45px !important;
   }
 }
-
+#anouncement {
+  position: absolute;
+  top: 150px;
+  font-size: 20px;
+  font-family: "Microsoft JhengHei";
+  left: 10vw;
+  z-index: 5;
+  color: rgb(220, 248, 255);
+  text-shadow: black 0.05em 0.05em 0.05em;
+  border: 2px dotted rgb(220, 248, 255);
+  border-radius: 5%;
+  padding: 5px;
+  line-height: 30px;
+}
 .carousel-inner img {
   height: 100vh;
   background-repeat: no-repeat;
@@ -138,6 +151,14 @@
     .slogan6 {
       font-size: 20px;
     }
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  #anouncement {
+    left: 0;
+    margin: 10px;
+    font-size: 17px;
   }
 }
 

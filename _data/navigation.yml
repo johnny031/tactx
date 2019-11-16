@@ -2,11 +2,5 @@
   link: /about/
 - name: 產品介紹
   link: /products/
-- name: 服務項目
-  link: /services/
-- name: 聯絡我們
-  link: /contact/
 - name: 最新消息
   link: /news/
-- name: 常見問題
-  link: /questions/

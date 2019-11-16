@@ -403,6 +403,28 @@ footer {
     font-size: 35px;
   }
 }
+
+#news {
+  padding: 60px 20px;
+  .col-lg-4 {
+    padding: 20px;
+  }
+  h2 {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-size: 35px;
+  }
+  h4 {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    padding: 25px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+  }
+}
+
 @media only screen and (max-width: 580px) {
   #about {
     h2,
@@ -498,10 +520,18 @@ footer {
   #about_history {
     padding: 60px 10px;
     .row {
-      padding: 0 0;
+      padding: 25px 0;
     }
     .col-md-6 {
       padding-bottom: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #about_history {
+    .row {
+      padding: 0 0;
     }
   }
 }

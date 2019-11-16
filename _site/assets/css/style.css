@@ -277,6 +277,13 @@ footer {
   #about h4 {
     font-size: 35px; }
 
+@media only screen and (max-width: 580px) {
+  #about h2,
+  #about h4 {
+    text-align: center;
+    font-size: 45px; }
+  #about h4 {
+    font-size: 21px; } }
 #news {
   padding: 60px 20px; }
   #news .col-lg-4 {
@@ -286,19 +293,35 @@ footer {
     font-size: 35px; }
   #news h4 {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 30px;
+    padding: 20px 0; }
+  #news .contents {
+    position: relative;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    line-height: 40px;
+    font-size: 21px;
+    margin-left: 15px;
+    text-indent: -15px; }
+    #news .contents a {
+      text-decoration: none;
+      color: #005da8;
+      transition: 0.3s; }
+    #news .contents a:hover {
+      color: #51adf8;
+      transition: 0.3s; }
+  #news .block {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     font-size: 22px;
     line-height: 32px;
     padding: 25px;
     border: 1px solid black;
     box-shadow: 1px 1px 4px black; }
 
-@media only screen and (max-width: 580px) {
-  #about h2,
-  #about h4 {
-    text-align: center;
-    font-size: 45px; }
-  #about h4 {
-    font-size: 21px; } }
+@media only screen and (max-width: 460px) {
+  #news .news-block {
+    padding: 20px 0; }
+  #news .alert-block {
+    padding: 0 0 30px 0; } }
 #about_intro {
   padding: 100px 2%;
   background: #f3f3f3; }
@@ -373,6 +396,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8; }
+  #about_cooperator a {
+    text-decoration: none; }
   #about_cooperator h2 {
     font-size: 40px;
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
@@ -384,9 +409,14 @@ footer {
     font-size: 30px;
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
     padding: 20px;
-    color: lightgray;
-    text-shadow: -1px -1px white, 1px 1px #333;
-    font-weight: 500; }
+    color: #b9b9b9;
+    text-shadow: -1px -1px white, 1px 1px 1px #333;
+    font-weight: 500;
+    transition: 0.3s; }
+  #about_cooperator h4:hover {
+    color: white;
+    text-shadow: -1px -1px white, 5px 5px 5px black;
+    transition: 0.3s; }
 
 @media only screen and (max-width: 745px) {
   #about_cooperator {

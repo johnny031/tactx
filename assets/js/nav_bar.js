@@ -27,6 +27,9 @@ $(document).ready(function() {
   if ($(window).width() < 851) {
     $(".cut").removeClass("col-md-6");
   }
+  if ($(window).width() < 700) {
+    $(".center-when-small").addClass("text-center");
+  }
 });
 
 $(window).scroll(function() {

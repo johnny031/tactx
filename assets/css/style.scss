@@ -403,6 +403,18 @@ footer {
     font-size: 35px;
   }
 }
+@media only screen and (max-width: 580px) {
+  #about {
+    h2,
+    h4 {
+      text-align: center;
+      font-size: 45px;
+    }
+    h4 {
+      font-size: 21px;
+    }
+  }
+}
 
 #news {
   padding: 60px 20px;
@@ -417,6 +429,30 @@ footer {
   h4 {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
+    font-size: 30px;
+    padding: 20px 0;
+  }
+  .contents {
+    position: relative;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 40px;
+    font-size: 21px;
+    margin-left: 15px;
+    text-indent: -15px;
+    a {
+      text-decoration: none;
+      color: #005da8;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #51adf8;
+      transition: 0.3s;
+    }
+  }
+  .block {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
     font-size: 22px;
     line-height: 32px;
     padding: 25px;
@@ -424,16 +460,13 @@ footer {
     box-shadow: 1px 1px 4px black;
   }
 }
-
-@media only screen and (max-width: 580px) {
-  #about {
-    h2,
-    h4 {
-      text-align: center;
-      font-size: 45px;
+@media only screen and (max-width: 460px) {
+  #news {
+    .news-block {
+      padding: 20px 0;
     }
-    h4 {
-      font-size: 21px;
+    .alert-block {
+      padding: 0 0 30px 0;
     }
   }
 }
@@ -557,6 +590,9 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
+  a {
+    text-decoration: none;
+  }
 
   h2 {
     font-size: 40px;
@@ -573,9 +609,15 @@ footer {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
     padding: 20px;
-    color: lightgray;
-    text-shadow: -1px -1px white, 1px 1px #333;
+    color: rgb(185, 185, 185);
+    text-shadow: -1px -1px white, 1px 1px 1px #333;
     font-weight: 500;
+    transition: 0.3s;
+  }
+  h4:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px white, 5px 5px 5px rgb(0, 0, 0);
+    transition: 0.3s;
   }
 }
 

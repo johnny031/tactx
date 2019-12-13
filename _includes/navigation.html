@@ -1,25 +1,35 @@
 <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-        <!-- Brand -->
-        <a href="{{ site.baseurl }}/" class="navbar-brand"><img class="logo" src="{{ site.baseurl}}/assets/img/logo.png" style="width:4em;"></a>
-        
-        <!-- collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_collapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="container">
+    <!-- Brand -->
+    <a href="{{ site.baseurl }}/" class="navbar-brand"
+      ><img
+        class="logo"
+        src="{{ site.baseurl}}/assets/img/logo_temp.png"
+        style="width:3em;"/></a
+    ><!--原本style="width:4em;"-->
 
-        <div class="collapse navbar-collapse" id="navbar_collapse">
-            <ul class="navbar-nav">
-            {%- for item in site.data.navigation -%}
-                <li class="nav-item">
-                    <div class="container highlightTextIn">
-                        <a class="nav-link effect-shine" href="{{ item.link }}">
-                            {{ item.name }}
-                        </a>
-                    </div>
-                </li>
-            {%- endfor -%}
-            </ul>
-        </div>
+    <!-- collapsibe Button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbar_collapse"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar_collapse">
+      <ul class="navbar-nav">
+        {%- for item in site.data.navigation -%}
+        <li class="nav-item">
+          <div class="container highlightTextIn">
+            <a class="nav-link effect-shine" href="{{ item.link }}">
+              {{ item.name }}
+            </a>
+          </div>
+        </li>
+        {%- endfor -%}
+      </ul>
     </div>
+  </div>
 </nav>

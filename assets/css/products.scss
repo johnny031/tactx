@@ -1,9 +1,8 @@
 ---
 ---
 
-#road {
-  padding: 0 90px;
-  display: flex;
+#breadcrumb {
+  padding: 150px 10px 0 10px;
   a {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
@@ -13,23 +12,15 @@
     color: rgb(151, 151, 151);
     font-size: 16px;
   }
+  .prompt,
+  .breadcrumb_last {
+    font-family: "Microsoft JhengHei";
+    color: rgb(151, 151, 151);
+  }
   a:hover {
     color: rgb(0, 80, 230);
   }
-  .contents {
-    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
-      sans-serif;
-    color: rgb(151, 151, 151);
-    font-size: 16px;
-  }
-  .fa-angle-right {
-    position: relative;
-    top: 4px;
-    padding: 0 10px;
-    color: rgb(151, 151, 151);
-  }
 }
-
 #CNCtransmitter_page_contents {
   h1 {
     padding: 30px;

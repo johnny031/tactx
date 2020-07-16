@@ -1,0 +1,225 @@
+#about {
+  height: 80vh;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/city2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50vh;
+
+  h2,
+  h4 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    word-break: keep-all;
+    padding: 20px 20px 20px 10vw;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  #about {
+    h2,
+    h4 {
+      text-align: center;
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 19px;
+    }
+  }
+}
+#about_intro {
+  padding: 100px 2%;
+  background: #f3f3f3;
+
+  h2 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 0;
+  }
+  h4 {
+    font-size: 25px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 25px;
+  }
+  .contents {
+    font-size: 20px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 5px 15%;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #about_intro {
+    padding: 80px 20px;
+    .general-heading_line {
+      margin: 15px auto;
+    }
+    h4 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .contents {
+      padding: 5px 5%;
+      text-align: left;
+      line-height: 40px;
+    }
+  }
+}
+
+#about_history {
+  padding: 100px 50px;
+  .logo-large {
+    color: #1e94f4;
+    font-size: 200px;
+  }
+  .logo-flag {
+    color: #1e94f4;
+    font-size: 30px;
+  }
+  .row {
+    padding: 38px 0px;
+  }
+  .col-md-6 {
+    padding-bottom: 50px;
+  }
+  h2 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 20px;
+  }
+  h4,
+  .contents {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 20px;
+  }
+  .contents {
+    font-size: 20px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about_history {
+    padding: 60px 10px;
+    .row {
+      padding: 25px 0;
+    }
+    .col-md-6 {
+      padding-bottom: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #about_history {
+    .row {
+      padding: 0 0;
+    }
+  }
+}
+#about_cooperator {
+  padding: 100px 50px;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/handshake3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 20px;
+    color: rgb(185, 185, 185);
+    text-shadow: -1px -1px white, 1px 1px 1px #333;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  h4:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: -1px -1px white, 5px 5px 5px rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  #about_cooperator {
+    padding: 70px 15px;
+    h4 {
+      font-size: 25px;
+    }
+  }
+}
+
+/*slide animation*/
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}

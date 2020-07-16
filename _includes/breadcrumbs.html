@@ -1,0 +1,22 @@
+{% assign categories = include.path | split:"/" %} {% assign
+filename_without_extension = categories | last | split:"." | first %} {% if
+categories contains "_posts" or filename_without_extension == "index" %} {%
+comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment
+%} {% comment %} OR pages are index.* i.e.: like /docs/python/index.md or
+index.html {% endcomment %} {% assign categories = categories | pop %} {% endif
+%} {% assign route="" %}
+<nav id="breadcrumb">
+  <a href="{{ site.baseurl }}/"><i class="fas fa-home"></i>首頁</a>
+  {% for category in categories %}
+  <span class="prompt">></span>
+  {% assign route = route | append: '/' | append: category %} {% if forloop.last
+  %} {% if include.title %}
+  <span class="breadcrumb_last">{{ include.title }}</span>
+  {% else %}
+  <span class="breadcrumb_last">{{ category }}</span>
+  {% endif %} {% else %}
+  <a class="route" href="{{ site.baseurl }}{{ route | remove: '_' }}"
+    >{{ category }}</a
+  >
+  {% endif %} {% endfor %}
+</nav>

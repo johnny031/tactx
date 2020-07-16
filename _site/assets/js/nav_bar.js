@@ -1,12 +1,13 @@
 function add_nav_white() {
-  $("nav").addClass("nav_white");
+  $(".navbar").addClass("nav_white");
 }
 function rm_nav_white() {
-  $("nav").removeClass("nav_white");
+  $(".navbar").removeClass("nav_white");
 }
 
-$(document).ready(function() {
-  var scroll = $(window).scrollTop();
+$(document).ready(function () {
+  jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 1200;
+  let scroll = $(window).scrollTop();
   if (scroll > 0) {
     add_nav_white();
   } else {
@@ -30,9 +31,11 @@ $(document).ready(function() {
   if ($(window).width() < 700) {
     $(".center-when-small").addClass("text-center");
   }
+  //translate breadcrumb text
+  $("#breadcrumb .route:contains('products')").html("產品介紹");
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var scroll = $(window).scrollTop();
   if (scroll > 0) {
     add_nav_white();
@@ -41,8 +44,8 @@ $(window).scroll(function() {
   }
 });
 
-$(window).scroll(function() {
-  $(".slideanim").each(function() {
+$(window).scroll(function () {
+  $(".slideanim").each(function () {
     var pos = $(this).offset().top;
 
     var winTop = $(window).scrollTop();

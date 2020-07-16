@@ -1,0 +1,21 @@
+- name: iMachining
+  link: /products/iMachining/
+  class: fas fa-info
+- name: SolidCAM
+  link: /products/SolidCAM/
+  class: fab fa-stripe-s
+- name: WinMAX
+  link: /products/WinMAX/
+  class: fab fa-weebly
+- name: CNC專用傳輸器
+  link: /products/CNC-transmitter/
+  class: fab fa-telegram-plane
+- name: CNC無線傳輸器
+  link: /products/CNC-wireless-transmitter/
+  class: fas fa-share
+- name: NC程式模擬傳輸軟體
+  link: /products/NC-simulator/
+  class: fas fa-random
+- name: CNC程式傳輸管理系統
+  link: /products/CNC-system/
+  class: fas fa-link

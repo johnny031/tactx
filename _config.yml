@@ -1,1 +1,13 @@
-url: https://tactx.com.tw/
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

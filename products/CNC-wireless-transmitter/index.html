@@ -1,21 +1,8 @@
 ---
-layout: default
+title: CNC無線傳輸器
 ---
 
-<br /><br /><br /><br /><br /><br /><br /><br />
-
-<div id="road">
-  <a href="/">
-    <div><i class="fas fa-home"></i>首頁</div>
-  </a>
-  <i class="fas fa-angle-right"></i>
-  <a href="/products/">
-    <div>產品介紹</div>
-  </a>
-  <i class="fas fa-angle-right"></i>
-  <div class="contents">CNC無線傳輸器</div>
-</div>
-
+{% include breadcrumbs.html path=page.path title=page.title %}
 <div id="CNC-wireless-tranmitter">
   <div class="container text-center">
     <h1>CNC無線傳輸器</h1>
@@ -111,78 +98,4 @@ layout: default
   </div>
 </div>
 <hr />
-<div id="other-products" class="container-fluid text-center test">
-  <h2>其他產品</h2>
-  <p class="general-heading_line "></p>
-  <div
-    class="row hover-effect hi-icon-wrap hi-icon-effect hi-icon-effect-1 text-left"
-  >
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/iMachining/" class="hi-icon"
-        ><i class="fas fa-info s-logo"></i>
-      </a>
-      <a
-        class="text-effect"
-        href="/products/iMachining/"
-        data-hover="iMachining"
-      >
-        iMachining
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/SolidCAM/" class="hi-icon"
-        ><i class="fab fa-stripe-s s-logo"></i>
-      </a>
-      <a class="text-effect" href="/products/SolidCAM/" data-hover="SolidCAM">
-        SolidCAM
-      </a>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/WinMAX/" class="hi-icon"
-        ><i class="fab fa-weebly s-logo"></i>
-      </a>
-      <a class="text-effect" href="/products/WinMAX/" data-hover="WinMAX">
-        WinMAX
-      </a>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/CNC-transmitter/" class="hi-icon"
-        ><i class="fab fa-telegram-plane s-logo"></i>
-      </a>
-      <a
-        class="text-effect"
-        href="/products/CNC-transmitter/"
-        data-hover="CNC專用傳輸器"
-      >
-        CNC專用傳輸器
-      </a>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/NC/" class="hi-icon"
-        ><i class="fas fa-random s-logo"></i>
-      </a>
-      <a
-        class="text-effect"
-        href="/products/NC/"
-        data-hover="NC程式模擬傳輸軟體"
-      >
-        NC程式模擬傳輸軟體
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 cut">
-      <a href="/products/CNC-system/" class="hi-icon"
-        ><i class="fas fa-link s-logo"></i>
-      </a>
-      <a
-        class="text-effect"
-        href="/products/CNC-system/"
-        data-hover="CNC程式傳輸管理系統"
-      >
-        CNC程式傳輸管理系統
-      </a>
-    </div>
-  </div>
-</div>
+{% include other_products.html%}

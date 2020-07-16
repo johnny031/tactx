@@ -1,0 +1,23 @@
+<div id="other-products" class="container-fluid text-center test">
+  <h2>其他產品</h2>
+  <p class="general-heading_line"></p>
+  <div
+    class="row hover-effect hi-icon-wrap hi-icon-effect hi-icon-effect-1 text-left"
+  >
+    {% for item in site.data.other_products %} {% assign link = item.link |
+    slice: 1, 50 %}{% unless page.path contains link %}
+    <div class="col-lg-4 col-md-6 col-sm-12 cut">
+      <a href="{{ item.link }}" class="hi-icon"
+        ><i class="{{ item.class }} s-logo"></i>
+      </a>
+      <a
+        class="text-effect"
+        href="{{ item.link }}"
+        data-hover="{{ item.name }}"
+      >
+        {{ item.name }}
+      </a>
+    </div>
+    {% endunless %} {% endfor %}
+  </div>
+</div>

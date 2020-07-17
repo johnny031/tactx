@@ -1,0 +1,58 @@
+#SolidCAM {
+  a {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: rgb(207, 107, 24);
+  }
+  a:hover {
+    color: rgb(126, 0, 0);
+  }
+  .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  img {
+    width: 35%;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #SolidCAM {
+    padding-bottom: 30px;
+    img {
+      width: 45%;
+      padding: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  #SolidCAM {
+    h1 {
+      padding: 50px 0 30px 0;
+    }
+    .general_introduction {
+      line-height: 28px;
+      font-weight: 550;
+      font-size: 17px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #SolidCAM {
+    h1 {
+      font-size: 37px;
+    }
+    .general_introduction {
+      line-height: 24px;
+      font-size: 14px;
+    }
+    img {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+}

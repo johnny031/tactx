@@ -1,0 +1,50 @@
+#NC_page_contents {
+  .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .first_line::before {
+    content: "WinVIEW – 是日本TACTX CAD/CAM軟體中的模擬器及連線功能";
+  }
+
+  .second_line::before {
+    content: "可模擬一般的GM碼NC程式產生刀具軌跡，並經由RS-232介面傳輸NC程式到CNC機器上";
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #NC_page_contents {
+    h1 {
+      font-size: 38px;
+    }
+    .general_introduction {
+      font-size: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 513px) {
+  #NC_page_contents {
+    h1 {
+      font-size: 36px;
+    }
+    #NC-supportedCNC {
+      filter: url(#pictureFilter);
+    }
+    .general_introduction {
+      font-size: 17px;
+    }
+    .first_line::before {
+      content: "WinVIEW – 是日本TACTX CAD/CAM軟體中的模擬器及連線功能，可模擬一般的GM碼NC程式產生刀具軌跡，並經由RS-232介面傳輸NC程式到CNC機器上";
+    }
+
+    .second_line::before {
+      content: "";
+    }
+  }
+}

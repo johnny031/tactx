@@ -1,0 +1,214 @@
+#CNCtransmitter_page_contents {
+  .general_introduction {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .first_line::before {
+    content: "由日本開發製造生產直接引進台灣，針對工廠內CNC機器傳輸需求開發的專用傳輸器";
+  }
+  .second_line::before {
+    content: "且對於較惡劣的工廠環境有較好的耐受性";
+  }
+  .row {
+    padding: 65px 0;
+    .col-lg-6 {
+      padding: 20px 20px;
+    }
+    img {
+      width: 60%;
+    }
+    .download {
+      padding-top: 2px;
+    }
+    .catalog {
+      padding-top: 2px;
+    }
+    .img-link {
+      a {
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+        font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+          sans-serif;
+        text-decoration: none;
+        color: rgb(141, 141, 141);
+      }
+      a:hover {
+        color: rgb(25, 192, 214);
+      }
+    }
+    h2 {
+      font-size: 25px;
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      margin: 0;
+      padding: 25px 0;
+      font-weight: bold;
+      line-height: 40px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 25px;
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      color: #222222;
+      padding: 19px 0;
+      text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+        1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+        2px 2px 2px rgba(28, 110, 164, 0);
+    }
+    .fas,
+    .far {
+      padding: 0 10px 0 0;
+    }
+    .advantages {
+      padding-left: 10px;
+    }
+    .contents {
+      position: relative;
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      line-height: 40px;
+      font-size: 18px;
+      margin-left: 15px;
+      text-indent: -15px;
+    }
+    .stop_sale {
+      position: absolute;
+      top: 340px;
+      left: 75%;
+      color: rgb(240, 168, 168);
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      line-height: 50px;
+      font-size: 18px;
+      margin: 0 0;
+    }
+    .indent {
+      text-indent: 37px;
+    }
+    .increase_left_padding {
+      padding: 0 0 0 7%;
+      width: 100%;
+    }
+    .com_adv_title {
+      font-size: 40px;
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.6);
+      text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+        0px -5px 35px rgba(255, 255, 255, 0.3);
+    }
+    .com_adv {
+      font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+        sans-serif;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      font-size: 17px;
+      span {
+        font-weight: bold;
+        font-size: 25px;
+        color: rgb(10, 160, 180);
+        text-shadow: 0.3px 0.3px 0.3px rgb(1, 60, 68);
+      }
+    }
+    .big {
+      padding: 40px 40px;
+      margin-bottom: 30px;
+      font-size: 100px;
+      color: white;
+      background-color: rgb(2, 30, 109);
+      border-radius: 50%;
+    }
+    .flat {
+      padding: 40px 55px;
+    }
+  }
+  .increase_bottom_padding {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  #CNCtransmitter_page_contents {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #CNCtransmitter_page_contents {
+    h1 {
+      padding: 50px 0 30px 0;
+    }
+    .row {
+      padding: 20px 0;
+    }
+    .increase_left_padding {
+      padding: 0 !important;
+      text-align: center;
+    }
+    img {
+      width: 40%;
+    }
+    .contents {
+      text-align: center;
+    }
+    .advantages {
+      padding: 0 !important;
+    }
+    .stop_sale {
+      position: absolute;
+      top: 20px !important;
+      left: 75%;
+    }
+    .general_introduction {
+      line-height: 28px;
+      font-weight: 550;
+      font-size: 17px;
+    }
+    .com_adv_title {
+      padding: 30px 0;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #CNCtransmitter_page_contents {
+    h1 {
+      font-size: 37px;
+    }
+    .general_introduction {
+      line-height: 24px;
+      font-size: 14px;
+    }
+    .first_line::before {
+      content: "由日本開發製造生產直接引進台灣";
+    }
+    .second_line::before {
+      content: "針對工廠內CNC機器傳輸需求開發的專用傳輸器";
+    }
+    .third_line::before {
+      content: "且對於較惡劣的工廠環境有較好的耐受性";
+    }
+    .stop_sale {
+      left: 10px !important;
+      top: -10px !important;
+    }
+    .col-lg-4 {
+      padding: 20px 20px;
+    }
+    .increase_left_padding {
+      padding: 20px 7.5% 20px 9% !important;
+    }
+    .contents {
+      text-align: left;
+    }
+    h2 {
+      font-size: 22px !important;
+    }
+    .com_adv_title {
+      padding: 20px 0;
+    }
+  }
+}

@@ -25,13 +25,15 @@
     border-bottom: 2px solid rgb(148, 148, 148);
     background-color: rgb(243, 243, 243);
   }
-  h4 {
+  .video-caption,
+  .module-name {
     font-size: 20px;
     font-weight: bold;
     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 30px;
   }
   h3 {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
@@ -122,19 +124,10 @@
     height: 205px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   #SolidCAM {
-    h1 {
-      font-size: 35px;
-    }
-    h2 {
-      font-size: 35px;
-    }
-    .paddingTop {
-      padding-top: 30px;
-    }
-    .video-wrapper {
-      border-bottom: none;
+    .video-caption {
+      height: 110px;
     }
   }
   #module {
@@ -142,6 +135,25 @@
       font-size: 35px;
       padding-top: 40px;
       padding-bottom: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  #SolidCAM {
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    .video-caption {
+      height: 90px;
+    }
+    .paddingTop {
+      padding-top: 30px;
+    }
+    .video-wrapper {
+      border-bottom: none;
     }
   }
 }

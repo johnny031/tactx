@@ -15,7 +15,7 @@ title: SolidCAM
     <div class="container">
       <div class="row">
         <div class="col-md-4 video-wrapper">
-          <h4>SolidCAM：整合型CAM領導者</h4>
+          <h4 class="video-caption">SolidCAM：整合型CAM領導者</h4>
           <iframe
             src="https://www.youtube.com/embed/JB5LpgIMKhc"
             frameborder="0"
@@ -24,7 +24,7 @@ title: SolidCAM
           ></iframe>
         </div>
         <div class="col-md-4 video-wrapper">
-          <h4>iMachining：革命性的CAM</h4>
+          <h4 class="video-caption">iMachining：革命性的CAM</h4>
           <iframe
             src="https://www.youtube.com/embed/1y0xGUXaQwA"
             frameborder="0"
@@ -33,7 +33,9 @@ title: SolidCAM
           ></iframe>
         </div>
         <div class="col-md-4 video-wrapper">
-          <h4>先進的車銑複合：複雜CNC的解決方案，包含走心式車床</h4>
+          <h4 class="video-caption">
+            先進的車銑複合：複雜CNC的解決方案，包含走心式車床
+          </h4>
           <iframe
             src="https://www.youtube.com/embed/KeRfQdSu2Ao"
             frameborder="0"
@@ -127,7 +129,7 @@ title: SolidCAM
         {% if item.link %}
         <a href="{{ item.link }}">
           {% endif %}
-          <h4>{{ item.name }}</h4>
+          <h4 class="module-name">{{ item.name }}</h4>
           <div
             class="module-img"
             style="background-image: url('{{ site.baseurl }}/assets/img/SolidCAM/module/{{ item.source }}');"

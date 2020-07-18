@@ -1,0 +1,18 @@
+<div id="module" class="container text-center">
+  {% if include.title %}
+  <h1>{{ include.title }}</h1>
+  {% else %}
+  <h1>{{ page.title }}</h1>
+  {% endif %}
+  <div id="container">
+    {% for item in site.data.module-contents[include.data] %}
+    <div class="item">
+      <h4>{{ item.name }}</h4>
+      <div
+        class="module-img"
+        style="background-image: url('{{ site.baseurl }}/assets/img/SolidCAM/module/{{ include.data }}/{{ forloop.index }}.jpg');"
+      ></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

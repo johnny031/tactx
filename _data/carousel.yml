@@ -1,12 +1,12 @@
 - name: First slide
-  link: /assets/img/carousel/image1.png
+  link: image1.png
   caption1: 珍惜每個客戶
   caption2: 重視每個細節
 - name: Second slide
-  link: /assets/img/carousel/image2.png
+  link: image2.png
   caption1: Trust me
   caption2: and we will make it possible
 - name: Third slide
-  link: /assets/img/carousel/image3.png
+  link: image3.png
   caption1: Turn to us
   caption2: and we will solve your problem

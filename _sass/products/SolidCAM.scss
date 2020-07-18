@@ -1,58 +1,160 @@
 #SolidCAM {
-  a {
-    -webkit-transition: 0.2s ease-in-out;
-    transition: 0.2s ease-in-out;
-    text-decoration: none;
-    color: rgb(207, 107, 24);
+  .section {
+    padding-bottom: 60px;
   }
-  a:hover {
-    color: rgb(126, 0, 0);
-  }
-  .general_introduction {
+  .content,
+  .first-line,
+  h4 {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
-    line-height: 34px;
-    font-weight: 600;
+  }
+  .first-line {
     font-size: 20px;
+    font-weight: bold;
+  }
+  .content {
+    padding-bottom: 30px;
+  }
+  iframe {
+    width: 100%;
+    height: 65%;
+  }
+  .video-wrapper {
+    height: 380px;
+    border-top: 2px solid rgb(148, 148, 148);
+    border-bottom: 2px solid rgb(148, 148, 148);
+    background-color: rgb(243, 243, 243);
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    color: rgb(41, 77, 175);
+  }
+  .fa-check {
+    padding: 0 10px 0 0;
+  }
+  h5 {
+    padding: 7px 0;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    margin-left: 23px;
+    text-indent: -13px;
+    line-height: 35px;
   }
   img {
-    width: 35%;
-    padding: 10px;
+    width: 100%;
+  }
+  .certified-img {
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    font-size: 40px;
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    padding: 50px 0 8px 0;
+    color: rgb(41, 77, 175);
+  }
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item {
+    padding: 0 2vw 50px 2vw;
+    a {
+      color: rgb(17, 95, 168);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      color: rgb(105, 169, 228);
+    }
+    a:hover .module-img {
+      transform: scale(1.04);
+    }
+  }
+  .module-img {
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+    width: 255px;
+    height: 205px;
+    transition: all 0.3s ease;
   }
 }
-@media only screen and (max-width: 1199px) {
-  #SolidCAM {
-    padding-bottom: 30px;
-    img {
-      width: 45%;
-      padding: 10px;
-    }
+#module {
+  padding-bottom: 40px;
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-}
-@media only screen and (max-width: 992px) {
-  #SolidCAM {
-    h1 {
-      padding: 50px 0 30px 0;
-    }
-    .general_introduction {
-      line-height: 28px;
-      font-weight: 550;
-      font-size: 17px;
-    }
+  h4 {
+    font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
+      sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item {
+    padding: 0 2vw 50px 2vw;
+  }
+  .module-img {
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 8px rgb(145, 145, 145);
+    width: 255px;
+    height: 205px;
   }
 }
 @media only screen and (max-width: 768px) {
   #SolidCAM {
     h1 {
-      font-size: 37px;
+      font-size: 35px;
     }
-    .general_introduction {
-      line-height: 24px;
-      font-size: 14px;
+    h2 {
+      font-size: 35px;
     }
-    img {
-      width: 100%;
-      padding: 5px;
+    .paddingTop {
+      padding-top: 30px;
+    }
+    .video-wrapper {
+      border-bottom: none;
+    }
+  }
+  #module {
+    h1 {
+      font-size: 35px;
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  #SolidCAM {
+    h5 {
+      font-size: 17px;
+      line-height: 28px;
+    }
+  }
+  #module {
+    h1 {
+      font-size: 30px;
     }
   }
 }

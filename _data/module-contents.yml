@@ -1,0 +1,75 @@
+milling-25D:
+  - name: 直接在您的CAD中運作
+  - name: CAM管理員
+  - name: 夾具保護
+  - name: 工具箱
+  - name: 四軸
+  - name: T型槽
+  - name: 3次元輪廓
+  - name: 面銑
+  - name: 倒角
+  - name: 袋狀
+  - name: 殘料
+  - name: 銑牙
+  - name: 輪廓
+  - name: 雕刻
+  - name: 鑽孔
+AFRM:
+  - name: SOLIDWORKS孔精靈特徵辨識
+  - name: 自動孔辨識-AHRM
+  - name: 倒角辨識
+  - name: 袋狀辨識
+  - name: 鑽孔辨識
+HSR:
+  - name: HM混合式粗加工
+  - name: 往復式粗加工
+  - name: 殘料再粗加工
+  - name: 環繞式粗加工
+  - name: 混合式薄壁加工
+HSM:
+  - name: 3D等距加工
+  - name: 3D轉角等距加工
+  - name: 水平螺旋狀加工
+  - name: 平面加工
+  - name: 多刀清角加工
+  - name: 兩特徵線仿型加工
+  - name: 放射狀加工
+  - name: 直線投影加工
+  - name: 混合式等高線加工
+  - name: 清角加工
+  - name: 殘料加工
+  - name: 等高線加工
+  - name: 等高線螺旋加工
+  - name: 補正加工
+  - name: 邊界加工
+HSS:
+  - name: 平行切削
+  - name: 平行於曲面
+  - name: 平行於曲線
+  - name: 曲面之間變體
+  - name: 曲線之間變體
+  - name: 投影加工
+  - name: 垂直於曲線
+  - name: 進階路徑鏈結
+  - name: 與曲線平行
+  - name: 干涉檢查
+five-axial:
+  - name: 刀軸控制
+  - name: 干涉檢查
+  - name: 平行切削
+  - name: 平行曲面
+  - name: 曲面之間變體
+  - name: 曲線之間變體
+  - name: 垂直於曲線
+  - name: 與曲線平行
+lathe-processing:
+  - name: 內外徑加工
+  - name: 切槽加工
+  - name: 切斷加工
+  - name: 手動車削加工
+  - name: 平衡粗加工
+  - name: 車牙加工
+  - name: 倒鉤形溝加工
+  - name: 端面加工
+  - name: 擺線切削加工
+  - name: 鑽孔加工

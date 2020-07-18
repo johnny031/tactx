@@ -1,0 +1,34 @@
+- name: 2.5D銑削
+  link: 25D-milling.html
+  source: 25D-milling.jpg
+- name: AFRM自動特徵辨識加工
+  link: AFRM.html
+  source: AFRM.jpg
+- name: HSR/HSM-3D高速加工
+  link: HSR_HSM.html
+  source: HSR_HSM.jpg
+- name: HSS高速曲面加工
+  link: HSS.html
+  source: HSS.jpg
+- name: 五軸同動加工
+  link: five-axial.html
+  source: five-axial.jpg
+- name: 車床加工
+  link: lathe-processing.html
+  source: lathe-processing.jpg
+- name: iMachining 2D
+  source: imachining2d.jpg
+- name: iMachining 3D
+  source: imachining3d.jpg
+- name: iMachining 3D (2D形狀)
+  source: imachining3d-25D.jpg
+- name: 多軸定位加工
+  source: multiple-axial.jpg
+- name: 高階車銑複合加工
+  source: turning-and-milling.jpg
+- name: 高階車銑複合加工-Swiss type
+  source: turning-and-milling-Swiss-type.png
+- name: 模具加工
+  source: mold-processing.jpg
+- name: 機上量測
+  source: measuring.jpg

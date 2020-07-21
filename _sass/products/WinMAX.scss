@@ -30,6 +30,12 @@
   .section {
     padding-bottom: 70px;
   }
+  .col-md-12 {
+    padding-bottom: 20px;
+  }
+  img {
+    width: 100%;
+  }
   a {
     font-family: "Lato", "Roboto", "Noto Sans TC", "Microsoft JhengHei",
       sans-serif;
@@ -46,9 +52,6 @@
 }
 @media only screen and (max-width: 992px) {
   #WinMAX {
-    img {
-      width: 90%;
-    }
     h5 {
       font-size: 18px;
       line-height: 30px;

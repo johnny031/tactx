@@ -29,7 +29,6 @@
     }
     a:hover {
       color: #51adf8;
-      transition: 0.3s;
     }
   }
   #container {
@@ -49,6 +48,14 @@
     padding: 25px;
     border: 1px solid black;
     box-shadow: 1px 1px 4px black;
+    a {
+      text-decoration: none;
+      color: #177acc;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #51adf8;
+    }
   }
 }
 @media only screen and (max-width: 992px) {
